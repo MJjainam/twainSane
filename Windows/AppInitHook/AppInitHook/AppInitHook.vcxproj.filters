@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mhook">
+      <UniqueIdentifier>{2b546917-7db4-433b-9322-8ec1bb986d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook\disasm-lib">
+      <UniqueIdentifier>{02096cb4-19d8-45e3-90d4-2009030f7902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook\hook-lib">
+      <UniqueIdentifier>{24b90a8a-2f1f-4873-b9f9-0af96c91b7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{8c984ed9-b3f4-4791-a8bb-b332be75a78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mhook\disasm-lib\cpu.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\disasm.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\disasm_x86.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\misc.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\mhook-lib\mhook.cpp">
+      <Filter>mhook\hook-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="winClient.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="winCreate.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mhook\disasm-lib\cpu.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm_x86.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm_x86_tables.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\misc.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\mhook-lib\mhook.h">
+      <Filter>mhook\hook-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="twain.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="winClient.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="codeDefine.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="winCreate.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

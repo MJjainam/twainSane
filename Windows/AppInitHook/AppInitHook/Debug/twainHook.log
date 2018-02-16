@@ -1,0 +1,47 @@
+0. 
+
+
+
+1. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_OPENDSM
+2. INtialized
+3. Socket created
+4. Connected
+5. in receive Ret structure function
+
+6. retStructure size is : 1794
+7. pret->message value: Succesful run of the function sane_init
+
+8. Received from linux pRet messageSuccesful run of the function sane_init
+
+9. 
+
+
+
+10. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_GETDEFAULT
+11. I am inside MSG_GETDEFAULT
+12. in receive Ret structure function
+
+13. retStructure size is : 1794
+14. pret->message value: Got sane devices
+15. received from linux pRet messageGot sane devices
+16. Device name received genesys:
+17. 
+
+
+
+18. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
+19. Inside third switch case
+20. in receive Ret structure function
+
+21. retStructure size is : 1794
+22. pret->message value: Got sane devices
+23. Entered ud_createWindow
+24. Got the hListBox
+25. in ret ==IDCANCEL
+26. returning result
+27. Error 
+28. 
+
+
+
+29. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
