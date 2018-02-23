@@ -16,18 +16,35 @@ WSADATA wsa;
 struct sockaddr_in server;
 
 
+void serializeScannerDevs(scannerDevs* pdevs, char *data) {
+
+	TW_UINT16* pdevsX = (TW_UINT16*)pdevs;
+	TW_UINT16* dataX = (TW_UINT16*)data;
+	TW_UINT16 temp;
+	for (int i = 0; i < sizeof(scannerDevs) / 2; i++)
+	{
+
+		temp = htons(*pdevsX);
+		memcpy(dataX, &temp, 2);
+		dataX++;
+		pdevsX++;
+	}
+
+}
+
+
 
 
 void serializeFParameters(fParameters* pmsgPacket, char *data) {
 
-	int* p = (int*)pmsgPacket;
-	int* dataX = (int*)data;
-	int temp;
+	TW_UINT16* p = (TW_UINT16*)pmsgPacket;
+	TW_UINT16* dataX = (TW_UINT16*)data;
+	TW_UINT16 temp;
 	//memcpy(data, pmsgPacket, 320);
-	for (int i = 0; i < sizeof(fParameters) / 4; i++) {
+	for (int i = 0; i < sizeof(fParameters) / 2; i++) {
 
-		temp = htonl(*p);
-		memcpy(dataX, &temp, 4);
+		temp = htons(*p);
+		memcpy(dataX, &temp, 2);
 		dataX++;
 		p++;
 	}
@@ -115,6 +132,48 @@ int sendfParams(fParameters *pmsgPacket) {
 	send(s, data, sizeof(data), 0);
 	return 0;
 }
+
+int sendDevs(scannerDevs* pdevs) {-//Tw wrong one
+	writeToLog("in sendDevs function");
+	if (s == NULL) {
+		connectTo(IPADDRESS, 2222);
+	}
+	//char* data = (char*)malloc(sizeof(scannerDevs));
+	//writeToLog("size of data for malloc is " + std::to_string());
+	char data[sizeof(*pdevs)];   //Malloc doesnt work here. See what could have gone wrong
+
+
+
+	serializeScannerDevs(pdevs, data);
+	int stat = send(s, data, sizeof(data), 0);
+	if (stat == SOCKET_ERROR) {
+		writeToLog("Connection problem while sending dev data....!!!!!");
+	}
+
+	return 0;
+}
+
+//int sendDevs(scannerDevs* pdevs) { //The correct one
+//	writeToLog("in sendDevs function");
+//	if (s == NULL) {
+//		connectTo(IPADDRESS, 2222);
+//	}
+//	char data[sizeof(*pdevs)];
+//
+//	//char* data = (char*)malloc(sizeof(scannerDevs));
+//	//memset(data, 0, sizeof(scannerDevs));
+//
+//	writeToLog("WINDOWS: Value of curDevId is : " + std::to_string(pdevs->curDevID));
+//
+//	serializeScannerDevs(pdevs, data);
+//	int stat = send(s, data, sizeof(data), 0);
+//	if (stat == SOCKET_ERROR) {
+//		writeToLog("Connection problem while sending dev data....!!!!!");
+//	}
+//
+//	return 0;
+//}
+
 int receiveMsg() {
 	return 0;
 }
@@ -135,6 +194,9 @@ int receiveRetStruct(retStruct *pRet) {
 	return 0;
 	//return *pRet;
 }
+
+
+
 
 int closeSocket() {
 

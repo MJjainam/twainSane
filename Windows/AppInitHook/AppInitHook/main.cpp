@@ -6,6 +6,7 @@
 
 HINSTANCE g_hinstance;
 HWND g_hwnd;
+scannerDevs devs;
 
 struct _pod pod;
 
@@ -64,7 +65,7 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 
 		if (DG == DG_CONTROL && DAT == DAT_PARENT && MSG == MSG_OPENDSM) {
 			
-
+			writeToLog("size of scannerDevs is: " + std::to_string(sizeof(scannerDevs)));
 			sendMsg(buffer);
 			sendfParams(&msgPacket);
 			retStruct *pRet = (retStruct *) malloc(sizeof(retStruct));
@@ -94,19 +95,19 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
 			memset(pRet, sizeof(retStruct), 0);
 			receiveRetStruct(pRet);
-			buffer = "received from linux pRet message" + std::string(pRet->message);
+			buffer = "received from linux pRet message " + std::string(pRet->message);
 
 			writeToLog(buffer);
-			buffer = "Device name received " + std::string(pRet->devInfo[0].name);
+			buffer = "Device name received " + std::string(pRet->devs.devinfo[0].name);
 			writeToLog(buffer);
-			TW_IDENTITY* pDataIdentity = (TW_IDENTITY*)pData;
-			pDataIdentity->SupportedGroups = DF_APP2 | DF_DSM2 | DF_DS2; //Deliberately did this without checking  
-			strncpy_s(pDataIdentity->Manufacturer,"Jainam",6);
-			pDataIdentity->Manufacturer[6] = '\0';
-			strncpy_s(pDataIdentity->ProductFamily, "MJ", 2);
-			pDataIdentity->Manufacturer[2] = '\0';
-			strncpy_s(pDataIdentity->ProductName, pRet->devInfo[0].name,sizeof(pRet->devInfo[0].name));
-			pDataIdentity->Manufacturer[sizeof(pRet->devInfo[0].name)] = '\0';
+			//TW_IDENTITY* pDataIdentity = (TW_IDENTITY*)pData;
+			//pDataIdentity->SupportedGroups = DF_APP2 | DF_DSM2 | DF_DS2; //Deliberately did this without checking  
+			//strncpy_s(pDataIdentity->Manufacturer,"Jainam",6);
+			//pDataIdentity->Manufacturer[6] = '\0';
+			//strncpy_s(pDataIdentity->ProductFamily, "MJ", 2);
+			//pDataIdentity->Manufacturer[2] = '\0';
+			//strncpy_s(pDataIdentity->ProductName, pRet->devs.devinfo[0].name,sizeof(pRet->devs.devinfo[0].name));
+			//pDataIdentity->Manufacturer[sizeof(pRet->devs.devinfo[0].name)] = '\0';
 
 
 
@@ -116,13 +117,16 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 		}
 
 		else if (DG == DG_CONTROL && DAT == DAT_IDENTITY && MSG == MSG_USERSELECT) {
-			//TW_IDENTITY *pRetData = (TW_IDENTITY*)pData;
-			//TW_IDENTITY retData = (TW_IDENTITY)(*pRetData);
 
-			writeToLog("Inside third switch case");
-			buffer = "Inside third switch case";
+
+
+			buffer = buffer + "\nWINDOWS: Inside MSG_USERSELECT";
+			writeToLog(buffer);
 			sendMsg(buffer);
 			sendfParams(&msgPacket);
+
+			
+
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
 			receiveRetStruct(pRet);
 			TW_IDENTITY* pDataIdentity = (TW_IDENTITY*)pData;
@@ -131,22 +135,78 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			pDataIdentity->Manufacturer[6] = '\0';
 			strncpy_s(pDataIdentity->ProductFamily, "MJ", 2);
 			pDataIdentity->Manufacturer[2] = '\0';
-			strncpy_s(pDataIdentity->ProductName, pRet->devInfo[0].name, sizeof(pRet->devInfo[0].name));
-			pDataIdentity->Manufacturer[sizeof(pRet->devInfo[0].name)] = '\0';
+			strncpy_s(pDataIdentity->ProductName, pRet->devs.devinfo[0].name, sizeof(pRet->devs.devinfo[0].name));
+			pDataIdentity->Manufacturer[sizeof(pRet->devs.devinfo[0].name)] = '\0';
 
+			writeToLog("I am in main.cpp and ret.numofdevices is: " + std::to_string(pRet->devs.numOfDevices));
 
-			ud_createWindow(twainDLL,g_hwnd, pod, *pRet);
-
-
+			// This function will pop the source dialog box
+			//twainDLL is sent because the template or resource of the GUI is in that DLL
+			//g_hwnd is the handle of the TWACKER application 
+			//pod contains 
+			//pRet is a pointer to the retStructure which contains the list of connected devices
+			ud_createWindow(twainDLL,g_hwnd, pod, *pRet); 
 
 			return pRet->twrc;
-			//buffer = buffer + "\nThis is the product name when MSG_USERSELECT is sent: "  + retData.ProductName;
-			//connectTo(buffer, serialData, "10.106.132.64", 2222);
 
+		}
+		else if (DG == DG_CONTROL && DAT == DAT_PARENT && MSG == MSG_CLOSEDSM) {
+
+
+			sendMsg(buffer);
+			sendfParams(&msgPacket);
+			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
+			receiveRetStruct(pRet);
+			buffer = "Received from linux pRet message" + std::string(pRet->message);
+			writeToLog(buffer);
+
+			//g_hwnd = (HWND)*((HWND*)pData); //Initialize g_hwnd
+
+											//This is the default app which is stored in the pod structure. 
+											//There is only one app stored and this is the one
+											//pPod= (struct _pod*)malloc(sizeof(struct _pod));
+			//pod.m_pSelectDlgAppId = (TW_IDENTITY *)malloc(sizeof(TW_IDENTITY));
+			//pod.m_pSelectDlgAppId = pOrigin;
+			return pRet->twrc;
 
 
 
 		}
+		else if (DG == DG_CONTROL && DAT == DAT_IDENTITY && MSG == MSG_OPENDS) {
+			
+
+			sendMsg(buffer);
+			sendfParams(&msgPacket);
+			if (devs.curDevID == 0) {
+				writeToLog("curDevid of devs is zero, something is wrong!!!!!!!!!!!!!");
+			}
+			writeToLog("(from main.cpp) This is the value of curDevId: " + std::to_string(devs.curDevID));
+
+			sendDevs(&devs);
+			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
+			receiveRetStruct(pRet);
+			buffer = "Received from linux pRet message" + std::string(pRet->message);
+			
+
+			return pRet->twrc;
+
+		}
+		else if (DG == DG_CONTROL && DAT == DAT_IDENTITY && MSG == MSG_SET) {
+
+			//writeToLog("WINDOWS: inside DAT_IDENTITY and MSG_OPENDS");
+			sendMsg(buffer);
+			sendfParams(&msgPacket);
+			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
+			receiveRetStruct(pRet);
+
+
+			buffer = "Received from linux pRet message" + std::string(pRet->message);
+			writeToLog(buffer);
+			return pRet->twrc;
+
+		}
+		//else if(DG == DG_CONTROL && DAT == DAT_USERINTERFACE && )
+		
 		return 0;
 		//return retVal;
 

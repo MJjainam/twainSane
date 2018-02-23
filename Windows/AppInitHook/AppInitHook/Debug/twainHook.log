@@ -3,45 +3,387 @@
 
 
 1. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_OPENDSM
-2. INtialized
-3. Socket created
-4. Connected
-5. in receive Ret structure function
+2. size of scannerDevs is: 776
+3. INtialized
+4. Socket created
+5. Connected
+6. in receive Ret structure function
 
-6. retStructure size is : 1794
-7. pret->message value: Succesful run of the function sane_init
+7. retStructure size is : 1804
+8. pret->message value: Succesful run of the function sane_init
 
-8. Received from linux pRet messageSuccesful run of the function sane_init
+9. Received from linux pRet messageSuccesful run of the function sane_init
 
-9. 
-
-
-
-10. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_GETDEFAULT
-11. I am inside MSG_GETDEFAULT
-12. in receive Ret structure function
-
-13. retStructure size is : 1794
-14. pret->message value: Got sane devices
-15. received from linux pRet messageGot sane devices
-16. Device name received genesys:
-17. 
+10. 
 
 
 
-18. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
-19. Inside third switch case
-20. in receive Ret structure function
+11. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_GETDEFAULT
+12. I am inside MSG_GETDEFAULT
+13. in receive Ret structure function
 
-21. retStructure size is : 1794
-22. pret->message value: Got sane devices
-23. Entered ud_createWindow
-24. Got the hListBox
-25. in ret ==IDCANCEL
-26. returning result
-27. Error 
-28. 
+14. retStructure size is : 1804
+15. pret->message value: This is MSG_GETDEFAULT, we do nothing here
+16. received from linux pRet message This is MSG_GETDEFAULT, we do nothing here
+17. Device name received 
+18. 
 
 
 
-29. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+19. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
+20. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
+WINDOWS: Inside MSG_USERSELECT
+21. in receive Ret structure function
+
+22. retStructure size is : 1804
+23. pret->message value: Got sane devices
+24. I am in main.cpp and ret.numofdevices is: 1
+25. Entered ud_createWindow
+26. Got the hListBox
+27. Number of devices found are 1
+28. initialized devs.curDevID to: 1
+29. in ret == IDOK
+30. 
+
+
+
+31. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+32. in receive Ret structure function
+
+33. retStructure size is : 1804
+34. pret->message value: sane-backends closed succesfully
+35. Received from linux pRet messagesane-backends closed succesfully
+36. 
+
+
+
+37. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_OPENDSM
+38. size of scannerDevs is: 776
+39. in receive Ret structure function
+
+40. retStructure size is : 1804
+41. pret->message value: Succesful run of the function sane_init
+
+42. Received from linux pRet messageSuccesful run of the function sane_init
+
+43. 
+
+
+
+44. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_OPENDS
+45. (from main.cpp) This is the value of curDevId: 1
+46. in sendDevs function
+47. in receive Ret structure function
+
+48. retStructure size is : 1804
+49. pret->message value: Got scanner handle of genesys:libusb:003:003
+50. 
+
+
+
+51. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_CAPABILITY////MSG_SET
+52. 
+
+
+
+53. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_ENABLEDS
+54. 
+
+
+
+55. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+56. 
+
+
+
+57. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+58. 
+
+
+
+59. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+60. 
+
+
+
+61. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+62. 
+
+
+
+63. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+64. 
+
+
+
+65. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+66. 
+
+
+
+67. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+68. 
+
+
+
+69. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+70. 
+
+
+
+71. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+72. 
+
+
+
+73. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+74. 
+
+
+
+75. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+76. 
+
+
+
+77. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+78. 
+
+
+
+79. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+80. 
+
+
+
+81. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+82. 
+
+
+
+83. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+84. 
+
+
+
+85. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+86. 
+
+
+
+87. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+88. 
+
+
+
+89. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+90. 
+
+
+
+91. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+92. 
+
+
+
+93. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+94. 
+
+
+
+95. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+96. 
+
+
+
+97. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+98. 
+
+
+
+99. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+100. 
+
+
+
+101. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+102. 
+
+
+
+103. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+104. 
+
+
+
+105. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+106. 
+
+
+
+107. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+108. 
+
+
+
+109. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+110. 
+
+
+
+111. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+112. 
+
+
+
+113. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+114. 
+
+
+
+115. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+116. 
+
+
+
+117. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+118. 
+
+
+
+119. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+120. 
+
+
+
+121. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+122. 
+
+
+
+123. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+124. 
+
+
+
+125. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+126. 
+
+
+
+127. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+128. 
+
+
+
+129. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+130. 
+
+
+
+131. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+132. 
+
+
+
+133. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+134. 
+
+
+
+135. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+136. 
+
+
+
+137. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+138. 
+
+
+
+139. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+140. 
+
+
+
+141. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+142. 
+
+
+
+143. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+144. 
+
+
+
+145. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+146. 
+
+
+
+147. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+148. 
+
+
+
+149. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+150. 
+
+
+
+151. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+152. 
+
+
+
+153. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+154. 
+
+
+
+155. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+156. 
+
+
+
+157. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+158. 
+
+
+
+159. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+160. 
+
+
+
+161. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+162. 
+
+
+
+163. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+164. 
+
+
+
+165. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+166. 
+
+
+
+167. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_DISABLEDS
+168. 
+
+
+
+169. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_CLOSEDS
+170. 
+
+
+
+171. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+172. in receive Ret structure function
+
+173. retStructure size is : 1804
+174. pret->message value: sane-backends closed succesfully
+175. Received from linux pRet messagesane-backends closed succesfully

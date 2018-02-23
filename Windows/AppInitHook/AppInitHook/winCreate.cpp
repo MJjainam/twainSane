@@ -4,31 +4,15 @@
 #include <locale>
 #include <codecvt>
 #include <string>
-
+#include "tools.h"
 
 retStruct ret;
-extern HWND g_hwnd;
-extern struct _pod pod;
+extern HWND g_hwnd; //handle of the application which is also declared in main
+extern struct _pod pod; 
+extern scannerDevs devs;
 
-std::wstring GetLastErrorAsString()
-{
-	std::wstring_convert<std::codecvt_utf8_utf16<wchar_t>> converter;
-	//Get the error message, if any.
-	DWORD errorMessageID = ::GetLastError();
-	if (errorMessageID == 0)
-		return std::wstring(); //No error message has been recorded
 
-	LPSTR messageBuffer = nullptr;
-	size_t size = FormatMessageA(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS,
-		NULL, errorMessageID, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), (LPSTR)&messageBuffer, 0, NULL);
 
-	std::string message(messageBuffer, size);
-	std::wstring wide = converter.from_bytes(message);
-	//Free the buffer.
-	LocalFree(messageBuffer);
-
-	return wide;
-}
 
 
 int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd1, struct _pod pod1, retStruct ret1) {
@@ -53,6 +37,8 @@ int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd1, struct _pod pod1, retSt
 	{
 
 		writeToLog("in ret == IDOK");
+		//devs.curDevID = 
+		//pod.devId = 
 		// Validate the result...
 		//if (!pod.m_pSelectDlgDsId)
 		//{
@@ -116,7 +102,7 @@ int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd1, struct _pod pod1, retSt
 	// Something back happened...
 	else if (ret == -1)
 	{
-		writeToLog("in ret ==-1");
+		writeToLog("in ret ==-1, something bad happened");
 
 		
 		std::wstring errMsg = GetLastErrorAsString();
@@ -125,9 +111,9 @@ int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd1, struct _pod pod1, retSt
 		//pod.m_ptwndsmapps->AppSetConditionCode(_pAppId, TWCC_BUMMER);
 		result = TWRC_FAILURE;
 	}
-	writeToLog("returning result");
-	std::wstring errMsg = GetLastErrorAsString();
-	writeToLog("Error " + std::string(errMsg.begin(), errMsg.end()));
+	//writeToLog("returning result");
+	//std::wstring errMsg = GetLastErrorAsString();
+	//writeToLog("Error " + std::string(errMsg.begin(), errMsg.end()));
 	return result;
 
 
@@ -292,13 +278,13 @@ BOOL SelectDlgProc(HWND hWnd,UINT Message,WPARAM wParam,LPARAM /*lParam - unused
 		{
 			writeToLog("Got the hListBox");
 			SendMessage(hListBox, LB_RESETCONTENT, (WPARAM)NULL, (LPARAM)NULL);
-
-			for (x = 0; x < 1/*MAX_DEVICES*/; ++x)
+			writeToLog("Number of devices found are " + std::to_string(ret.devs.numOfDevices));
+			for (int x = 1; x <= ret.devs.numOfDevices/*MAX_DEVICES*/; ++x)
 			{
 				// We expect the list to be contiguous...
-				szProductName = ret.devInfo[x].name;
+				szProductName = ret.devs.devinfo[x-1].name;
 				
-				if (!szProductName[0])
+				if (!szProductName[x-1])
 				{
 					break;
 				}
@@ -306,21 +292,24 @@ BOOL SelectDlgProc(HWND hWnd,UINT Message,WPARAM wParam,LPARAM /*lParam - unused
 				nIndex = (int)SendMessage(hListBox, LB_ADDSTRING, (WPARAM)NULL, (LPARAM)GetWC(szProductName));
 				if (LB_ERR == nIndex)
 				{
+					writeToLog("Could not display the name");
 					break;
 				}
 				// Associate the id with the name...
+				//I am assosiating the index of DS with the name
 				nIndex = (int)SendMessage(hListBox,
 					LB_SETITEMDATA,
 					(WPARAM)nIndex,
-					(LPARAM)/*pPod->m_ptwndsmapps->DsGetIdentity(pAppId, x)->Id*/1);
+					(LPARAM)x/*pPod->m_ptwndsmapps->DsGetIdentity(pAppId, x)->Id*/);
 				if (LB_ERR == nIndex)
 				{
+					writeToLog("Could not assosiate ID with the name");
 					break;
 				}
 				// Remember this item if it's the default...
 				//if (!strcmp(pPod->m_ptwndsmapps->DsGetPath(pAppId, x), pPod->m_DefaultDSPath))
 				//{
-					nSelect = x;
+					nSelect = x; //Select the last found device
 				//}
 			}
 			// If we have no drivers, then disable the OK button...
@@ -335,9 +324,10 @@ BOOL SelectDlgProc(HWND hWnd,UINT Message,WPARAM wParam,LPARAM /*lParam - unused
 				nIndex = (int)SendMessage(hListBox,
 					LB_FINDSTRINGEXACT,
 					(WPARAM)-1,
-					(LPARAM)ret.devInfo[0].name);
+					(LPARAM)GetWC(ret.devs.devinfo[0].name));
 				if (LB_ERR == nIndex)
 				{
+					writeToLog("Could not get the default DS by product name");
 					nIndex = 0;
 				}
 				SendMessage(hListBox, LB_SETCURSEL, (WPARAM)nIndex, (LPARAM)NULL);
@@ -390,14 +380,20 @@ BOOL SelectDlgProc(HWND hWnd,UINT Message,WPARAM wParam,LPARAM /*lParam - unused
 					{
 						// if there is no selection should not have OK available
 						// to press in the first place.
+						writeToLog("No devices found and hence returning ");
 						return TRUE;
 					}
+					//writeToLog("This is the first index: " + std::to_string(nIndex));
 					nIndex = (int)SendMessage(hListBox, LB_GETITEMDATA, (WPARAM)nIndex, (LPARAM)0);
 					if (LB_ERR != nIndex)
 					{
 						//pPod->m_pSelectDlgDsId = pod.m_ptwndsmapps->DsGetIdentity(pAppId, nIndex);
-						writeToLog("something is wrong in winCreate.cpp");
+						devs.curDevID = nIndex;
+						writeToLog("initialized devs.curDevID to: " + std::to_string(nIndex));
 					}
+					//writeToLog("This is the second index: " + std::to_string(nIndex));
+					//pod.devId = nIndex;
+
 				}
 				EndDialog(hWnd, IDOK);
 				return TRUE;

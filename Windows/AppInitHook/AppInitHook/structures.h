@@ -21,14 +21,18 @@ typedef struct devInfoStruct {
 
 } devInfoStruct;
 
+typedef struct scannerDevs {
+	devInfoStruct devinfo[MAX_DEVICES];
+	int numOfDevices = 0;
+	int curDevID = 0;
+}scannerDevs;
+
 typedef struct retStruct
 {
-	TW_UINT16 twrc;
+	TW_UINT16 twrc; //Error code that has to be returned
 	char message[MAX_MESSAGE_SIZE];
-	devInfoStruct devInfo[MAX_DEVICES];
-	int numOfDevices = 0;
-	//char*  devInfo[MAX_DEVICES];
-
+	//  devInfoStruct devInfo[MAX_DEVICES];
+	scannerDevs devs; //This is a structure which contains list of scanner devices found and the number of them.
 
 } retStruct;
 
@@ -58,7 +62,7 @@ struct _pod
 	* is only used on the Windows platform.
 	*/
 	TW_IDENTITY * m_pSelectDlgAppId;
-
+	int devId = 0; //Currently selected device ID
 	int numOfDevices;
 }; 
 

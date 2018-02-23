@@ -29,5 +29,7 @@ int sendfParams(fParameters *pmsgPacket);
 int receiveMsg();
 int receiveRetStruct(retStruct *pRet);
 int closeSocket();
+int sendDevs(scannerDevs* pdevs);
+void serializeScannerDevs(scannerDevs *pdevs, char *data);
 
 #endif
