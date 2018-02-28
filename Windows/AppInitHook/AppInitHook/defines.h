@@ -10,5 +10,6 @@
 #define IDC_STATIC 11
 #define MAX_MESSAGE_SIZE 1024
 #define MAX_DEVICES 3
+#define MAX_IMAGE_SIZE 3000000
 
 #endif

@@ -31,5 +31,6 @@ int receiveRetStruct(retStruct *pRet);
 int closeSocket();
 int sendDevs(scannerDevs* pdevs);
 void serializeScannerDevs(scannerDevs *pdevs, char *data);
+int recvImage(char* filePath);
 
 #endif

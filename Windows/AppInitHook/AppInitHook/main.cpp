@@ -41,6 +41,15 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 
 	writeToLog(buffer);
 	
+	//int retVal = (*original_DSM_Entry)(pOrigin, pDest, DG, DAT, MSG, pData);
+	//return retVal;
+	//TW_ENTRYPOINT* pentry = (TW_ENTRYPOINT*)pData;
+
+	//writeToLog("This is the retval for orig DSM_Entry " + std::to_string(retVal));
+
+	//return (*original_DSM_Entry)(pOrigin, pDest, DG, DAT, MSG, pData);
+
+
 	fParameters msgPacket;
 	if (pDest == NULL) {
 		msgPacket = {
@@ -73,6 +82,9 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			buffer = "Received from linux pRet message" + std::string(pRet->message);
 			writeToLog(buffer);
 
+			pOrigin->SupportedGroups |= DF_DSM2;
+
+
 			g_hwnd = (HWND)*((HWND*)pData); //Initialize g_hwnd
 
 			//This is the default app which is stored in the pod structure. 
@@ -80,6 +92,7 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			//pPod= (struct _pod*)malloc(sizeof(struct _pod));
 			pod.m_pSelectDlgAppId = (TW_IDENTITY *)malloc(sizeof(TW_IDENTITY)); 
 			pod.m_pSelectDlgAppId = pOrigin;
+			writeToLog("This is the retVal for hooked DSM " + std::to_string(pRet->twrc));
 			return pRet->twrc;
 			
 
@@ -146,7 +159,7 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			//pod contains 
 			//pRet is a pointer to the retStructure which contains the list of connected devices
 			ud_createWindow(twainDLL,g_hwnd, pod, *pRet); 
-
+			
 			return pRet->twrc;
 
 		}
@@ -183,6 +196,9 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			writeToLog("(from main.cpp) This is the value of curDevId: " + std::to_string(devs.curDevID));
 
 			sendDevs(&devs);
+			if (recvImage("something") == -1) {
+				writeToLog("Some error in recv IMage");
+			}
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
 			receiveRetStruct(pRet);
 			buffer = "Received from linux pRet message" + std::string(pRet->message);
@@ -195,6 +211,7 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 
 			//writeToLog("WINDOWS: inside DAT_IDENTITY and MSG_OPENDS");
 			sendMsg(buffer);
+			//sendMsg(buffer);
 			sendfParams(&msgPacket);
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
 			receiveRetStruct(pRet);
@@ -205,7 +222,19 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			return pRet->twrc;
 
 		}
-		//else if(DG == DG_CONTROL && DAT == DAT_USERINTERFACE && )
+		else if (DG == DG_CONTROL && DAT == DAT_USERINTERFACE && MSG_ENABLEDS) {
+
+			sendMsg(buffer);
+			sendfParams(&msgPacket);
+
+			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
+			receiveRetStruct(pRet);
+
+			buffer = "Received from linux pRet message" + std::string(pRet->message);
+			writeToLog(buffer);
+			return pRet->twrc;
+
+		}
 		
 		return 0;
 		//return retVal;

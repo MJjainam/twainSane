@@ -7,14 +7,17 @@
 #include "twain.h"
 #include "structures.h"
 #include "tools.h"
+#include <direct.h>
 
 
+#define LOADLIBRARY(lib,hook,DSID) InstallTwain32DllHooks(lib,hook,DSID)
 
-
+int getWinDataSource(char *szProductName, DS_INFO* pwinDataSource);
 int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd, struct _pod pod1, retStruct ret1);
 BOOL CALLBACK EnumChildProc(HWND hwnd, LPARAM lParam);
 BOOL SelectDlgProc(HWND hWnd, UINT Message, WPARAM wParam, LPARAM /*lParam - unused*/);
-
+int scanDSDir(char *szProductName, char *_szAbsPath, DS_INFO* pwinDataSource);
+TW_UINT16 LoadDS(char *szProductName,char *_pPath, /* This is the path to data source*/ DS_INFO* pwinDataSource,bool         _boolKeepOpen);
 
 
 typedef struct

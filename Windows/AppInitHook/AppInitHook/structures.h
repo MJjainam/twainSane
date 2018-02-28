@@ -18,8 +18,11 @@ typedef struct devInfoStruct {
 	char vendor[64];
 	char model[64];
 	char type[64];
+//	DS_INFO winDataSource;
 
 } devInfoStruct;
+
+
 
 typedef struct scannerDevs {
 	devInfoStruct devinfo[MAX_DEVICES];
@@ -35,6 +38,34 @@ typedef struct retStruct
 	scannerDevs devs; //This is a structure which contains list of scanner devices found and the number of them.
 
 } retStruct;
+
+typedef struct DS_INFO 
+{
+	TW_IDENTITY   Identity; /* Identity info for data source */
+		TW_HANDLE     pHandle; /* returned by LOADLIBRARY(...) */
+		DSENTRYPROC   DS_Entry; /* function pointer to the DS_Entry function -- set by dlsym(...) */
+		char          szPath[FILENAME_MAX]; /* location of the DS */
+		TW_CALLBACK2  twcallback2; /* callback structure(we're using callback2 because it's 32 - bit and 64 - bit safe) */
+		TW_BOOL       bCallbackPending; /* True if an application is old style and a callback was supposed to be made to it */
+		TW_BOOL       bDSProcessingMessage; /* True if the application is still waiting for the DS to return from processing a message */
+		TW_BOOL       bAppProcessingCallback; /* True if the application is still waiting for the DS to return from processing a message */
+} DS_INFO;
+
+typedef struct {
+	long           Id;
+	TW_VERSION      Version;
+	TW_UINT16       ProtocolMajor;
+	TW_UINT16       ProtocolMinor;
+	long           SupportedGroups;
+	TW_STR32        Manufacturer;
+	TW_STR32        ProductFamily;
+	TW_STR32        ProductName;
+} TW_IDENTITY_LINUX64;
+
+typedef union {
+	TW_IDENTITY          twidentity;
+	TW_IDENTITY_LINUX64  twidentitylinux64;
+} TW_IDENTITY_LINUX64SAFE;
 
 struct _pod
 {

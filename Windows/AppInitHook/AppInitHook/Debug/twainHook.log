@@ -14,376 +14,388 @@
 
 9. Received from linux pRet messageSuccesful run of the function sane_init
 
-10. 
+10. This is the retVal for hooked DSM 0
+11. 
 
 
 
-11. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_GETDEFAULT
-12. I am inside MSG_GETDEFAULT
-13. in receive Ret structure function
-
-14. retStructure size is : 1804
-15. pret->message value: This is MSG_GETDEFAULT, we do nothing here
-16. received from linux pRet message This is MSG_GETDEFAULT, we do nothing here
-17. Device name received 
-18. 
+12. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_ENTRYPOINT////MSG_GET
+13. 
 
 
 
-19. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
-20. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
+14. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_GETDEFAULT
+15. I am inside MSG_GETDEFAULT
+16. in receive Ret structure function
+
+17. retStructure size is : 1804
+18. pret->message value: This is MSG_GETDEFAULT, we do nothing here
+19. received from linux pRet message This is MSG_GETDEFAULT, we do nothing here
+20. Device name received 
+21. 
+
+
+
+22. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
+23. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_USERSELECT
 WINDOWS: Inside MSG_USERSELECT
-21. in receive Ret structure function
+24. in receive Ret structure function
 
-22. retStructure size is : 1804
-23. pret->message value: Got sane devices
-24. I am in main.cpp and ret.numofdevices is: 1
-25. Entered ud_createWindow
-26. Got the hListBox
-27. Number of devices found are 1
-28. initialized devs.curDevID to: 1
-29. in ret == IDOK
-30. 
-
-
-
-31. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
-32. in receive Ret structure function
-
-33. retStructure size is : 1804
-34. pret->message value: sane-backends closed succesfully
-35. Received from linux pRet messagesane-backends closed succesfully
-36. 
+25. retStructure size is : 1804
+26. pret->message value: Got sane devices
+27. I am in main.cpp and ret.numofdevices is: 3
+28. Entered ud_createWindow
+29. Got the hListBox
+30. Number of devices found are 3
+31. Could not get the default DS by product name
+32. initialized devs.curDevID to: 3
+33. in ret == IDOK
+34. 
 
 
 
-37. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_OPENDSM
-38. size of scannerDevs is: 776
-39. in receive Ret structure function
+35. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+36. in receive Ret structure function
 
-40. retStructure size is : 1804
-41. pret->message value: Succesful run of the function sane_init
-
-42. Received from linux pRet messageSuccesful run of the function sane_init
-
-43. 
+37. retStructure size is : 1804
+38. pret->message value: sane-backends closed succesfully
+39. Received from linux pRet messagesane-backends closed succesfully
+40. 
 
 
 
-44. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_OPENDS
-45. (from main.cpp) This is the value of curDevId: 1
-46. in sendDevs function
-47. in receive Ret structure function
+41. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_OPENDSM
+42. size of scannerDevs is: 776
+43. in receive Ret structure function
 
-48. retStructure size is : 1804
-49. pret->message value: Got scanner handle of genesys:libusb:003:003
+44. retStructure size is : 1804
+45. pret->message value: Succesful run of the function sane_init
+
+46. Received from linux pRet messageSuccesful run of the function sane_init
+
+47. This is the retVal for hooked DSM 0
+48. 
+
+
+
+49. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_ENTRYPOINT////MSG_GET
 50. 
 
 
 
-51. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_CAPABILITY////MSG_SET
-52. 
-
-
-
-53. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_ENABLEDS
-54. 
-
-
-
-55. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-56. 
-
-
-
-57. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-58. 
-
-
-
-59. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-60. 
-
-
-
-61. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-62. 
-
-
-
-63. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-64. 
-
-
-
-65. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-66. 
-
-
-
-67. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-68. 
-
-
-
-69. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-70. 
-
-
-
-71. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-72. 
-
-
-
-73. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-74. 
-
-
-
-75. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-76. 
-
-
-
-77. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-78. 
-
-
-
-79. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-80. 
-
-
-
-81. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-82. 
-
-
-
-83. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-84. 
-
-
-
-85. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-86. 
-
-
-
-87. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-88. 
-
-
-
-89. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-90. 
-
-
-
-91. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-92. 
-
-
-
-93. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-94. 
-
-
-
-95. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-96. 
-
-
-
-97. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-98. 
-
-
-
-99. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-100. 
-
-
-
-101. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-102. 
-
-
-
-103. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-104. 
-
-
-
-105. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-106. 
-
-
-
-107. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-108. 
-
-
-
-109. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-110. 
-
-
-
-111. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-112. 
-
-
-
-113. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-114. 
-
-
-
-115. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-116. 
-
-
-
-117. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-118. 
-
-
-
-119. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-120. 
-
-
-
-121. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-122. 
-
-
-
-123. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-124. 
-
-
-
-125. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-126. 
-
-
-
-127. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-128. 
-
-
-
-129. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-130. 
-
-
-
-131. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-132. 
-
-
-
-133. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-134. 
-
-
-
-135. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-136. 
-
-
-
-137. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-138. 
-
-
-
-139. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-140. 
-
-
-
-141. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-142. 
-
-
-
-143. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-144. 
-
-
-
-145. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-146. 
-
-
-
-147. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-148. 
-
-
-
-149. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-150. 
-
-
-
-151. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-152. 
-
-
-
-153. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-154. 
-
-
-
-155. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-156. 
-
-
-
-157. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-158. 
-
-
-
-159. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-160. 
-
-
-
-161. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-162. 
-
-
-
-163. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-164. 
-
-
-
-165. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
-166. 
-
-
-
-167. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_DISABLEDS
-168. 
-
-
-
-169. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_CLOSEDS
-170. 
-
-
-
-171. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
-172. in receive Ret structure function
-
-173. retStructure size is : 1804
-174. pret->message value: sane-backends closed succesfully
-175. Received from linux pRet messagesane-backends closed succesfully
+51. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_OPENDS
+52. (from main.cpp) This is the value of curDevId: 3
+53. in sendDevs function
+54. in recvImage function
+55. size of the image is 137056
+56. in else and value of diff between tempimageData and imgdata is512
+57. in else and value of diff between tempimageData and imgdata is1024
+58. in else and value of diff between tempimageData and imgdata is1536
+59. in else and value of diff between tempimageData and imgdata is2048
+60. in else and value of diff between tempimageData and imgdata is2560
+61. in else and value of diff between tempimageData and imgdata is2920
+62. in else and value of diff between tempimageData and imgdata is3432
+63. in else and value of diff between tempimageData and imgdata is3944
+64. in else and value of diff between tempimageData and imgdata is4456
+65. in else and value of diff between tempimageData and imgdata is4968
+66. in else and value of diff between tempimageData and imgdata is5480
+67. in else and value of diff between tempimageData and imgdata is5992
+68. in else and value of diff between tempimageData and imgdata is6504
+69. in else and value of diff between tempimageData and imgdata is7016
+70. in else and value of diff between tempimageData and imgdata is7528
+71. in else and value of diff between tempimageData and imgdata is8040
+72. in else and value of diff between tempimageData and imgdata is8552
+73. in else and value of diff between tempimageData and imgdata is9064
+74. in else and value of diff between tempimageData and imgdata is9576
+75. in else and value of diff between tempimageData and imgdata is10088
+76. in else and value of diff between tempimageData and imgdata is10600
+77. in else and value of diff between tempimageData and imgdata is11112
+78. in else and value of diff between tempimageData and imgdata is11624
+79. in else and value of diff between tempimageData and imgdata is12136
+80. in else and value of diff between tempimageData and imgdata is12648
+81. in else and value of diff between tempimageData and imgdata is13140
+82. in else and value of diff between tempimageData and imgdata is13652
+83. in else and value of diff between tempimageData and imgdata is14164
+84. in else and value of diff between tempimageData and imgdata is14676
+85. in else and value of diff between tempimageData and imgdata is15188
+86. in else and value of diff between tempimageData and imgdata is15700
+87. in else and value of diff between tempimageData and imgdata is16060
+88. in else and value of diff between tempimageData and imgdata is16572
+89. in else and value of diff between tempimageData and imgdata is17084
+90. in else and value of diff between tempimageData and imgdata is17596
+91. in else and value of diff between tempimageData and imgdata is18108
+92. in else and value of diff between tempimageData and imgdata is18620
+93. in else and value of diff between tempimageData and imgdata is19132
+94. in else and value of diff between tempimageData and imgdata is19644
+95. in else and value of diff between tempimageData and imgdata is20156
+96. in else and value of diff between tempimageData and imgdata is20668
+97. in else and value of diff between tempimageData and imgdata is21180
+98. in else and value of diff between tempimageData and imgdata is21692
+99. in else and value of diff between tempimageData and imgdata is22204
+100. in else and value of diff between tempimageData and imgdata is22716
+101. in else and value of diff between tempimageData and imgdata is23228
+102. in else and value of diff between tempimageData and imgdata is23740
+103. in else and value of diff between tempimageData and imgdata is24252
+104. in else and value of diff between tempimageData and imgdata is24764
+105. in else and value of diff between tempimageData and imgdata is25276
+106. in else and value of diff between tempimageData and imgdata is25788
+107. in else and value of diff between tempimageData and imgdata is26300
+108. in else and value of diff between tempimageData and imgdata is26812
+109. in else and value of diff between tempimageData and imgdata is27324
+110. in else and value of diff between tempimageData and imgdata is27836
+111. in else and value of diff between tempimageData and imgdata is28348
+112. in else and value of diff between tempimageData and imgdata is28860
+113. in else and value of diff between tempimageData and imgdata is29372
+114. in else and value of diff between tempimageData and imgdata is29884
+115. in else and value of diff between tempimageData and imgdata is30396
+116. in else and value of diff between tempimageData and imgdata is30908
+117. in else and value of diff between tempimageData and imgdata is31420
+118. in else and value of diff between tempimageData and imgdata is31932
+119. in else and value of diff between tempimageData and imgdata is32444
+120. in else and value of diff between tempimageData and imgdata is32956
+121. in else and value of diff between tempimageData and imgdata is33468
+122. in else and value of diff between tempimageData and imgdata is33980
+123. in else and value of diff between tempimageData and imgdata is34492
+124. in else and value of diff between tempimageData and imgdata is35004
+125. in else and value of diff between tempimageData and imgdata is35516
+126. in else and value of diff between tempimageData and imgdata is36028
+127. in else and value of diff between tempimageData and imgdata is36540
+128. in else and value of diff between tempimageData and imgdata is37052
+129. in else and value of diff between tempimageData and imgdata is37564
+130. in else and value of diff between tempimageData and imgdata is38076
+131. in else and value of diff between tempimageData and imgdata is38588
+132. in else and value of diff between tempimageData and imgdata is39100
+133. in else and value of diff between tempimageData and imgdata is39612
+134. in else and value of diff between tempimageData and imgdata is40124
+135. in else and value of diff between tempimageData and imgdata is40636
+136. in else and value of diff between tempimageData and imgdata is41148
+137. in else and value of diff between tempimageData and imgdata is41660
+138. in else and value of diff between tempimageData and imgdata is42172
+139. in else and value of diff between tempimageData and imgdata is42340
+140. in else and value of diff between tempimageData and imgdata is42852
+141. in else and value of diff between tempimageData and imgdata is43364
+142. in else and value of diff between tempimageData and imgdata is43876
+143. in else and value of diff between tempimageData and imgdata is44388
+144. in else and value of diff between tempimageData and imgdata is44900
+145. in else and value of diff between tempimageData and imgdata is45260
+146. in else and value of diff between tempimageData and imgdata is45772
+147. in else and value of diff between tempimageData and imgdata is46284
+148. in else and value of diff between tempimageData and imgdata is46796
+149. in else and value of diff between tempimageData and imgdata is47308
+150. in else and value of diff between tempimageData and imgdata is47820
+151. in else and value of diff between tempimageData and imgdata is48332
+152. in else and value of diff between tempimageData and imgdata is48844
+153. in else and value of diff between tempimageData and imgdata is49356
+154. in else and value of diff between tempimageData and imgdata is49868
+155. in else and value of diff between tempimageData and imgdata is50380
+156. in else and value of diff between tempimageData and imgdata is50892
+157. in else and value of diff between tempimageData and imgdata is51404
+158. in else and value of diff between tempimageData and imgdata is51916
+159. in else and value of diff between tempimageData and imgdata is52428
+160. in else and value of diff between tempimageData and imgdata is52940
+161. in else and value of diff between tempimageData and imgdata is53452
+162. in else and value of diff between tempimageData and imgdata is53964
+163. in else and value of diff between tempimageData and imgdata is54476
+164. in else and value of diff between tempimageData and imgdata is54988
+165. in else and value of diff between tempimageData and imgdata is55500
+166. in else and value of diff between tempimageData and imgdata is56012
+167. in else and value of diff between tempimageData and imgdata is56524
+168. in else and value of diff between tempimageData and imgdata is57036
+169. in else and value of diff between tempimageData and imgdata is57548
+170. in else and value of diff between tempimageData and imgdata is58060
+171. in else and value of diff between tempimageData and imgdata is58572
+172. in else and value of diff between tempimageData and imgdata is59084
+173. in else and value of diff between tempimageData and imgdata is59596
+174. in else and value of diff between tempimageData and imgdata is60108
+175. in else and value of diff between tempimageData and imgdata is60620
+176. in else and value of diff between tempimageData and imgdata is61132
+177. in else and value of diff between tempimageData and imgdata is61644
+178. in else and value of diff between tempimageData and imgdata is62156
+179. in else and value of diff between tempimageData and imgdata is62668
+180. in else and value of diff between tempimageData and imgdata is62780
+181. in else and value of diff between tempimageData and imgdata is63292
+182. in else and value of diff between tempimageData and imgdata is63804
+183. in else and value of diff between tempimageData and imgdata is64316
+184. in else and value of diff between tempimageData and imgdata is64828
+185. in else and value of diff between tempimageData and imgdata is65340
+186. in else and value of diff between tempimageData and imgdata is65852
+187. in else and value of diff between tempimageData and imgdata is66364
+188. in else and value of diff between tempimageData and imgdata is66876
+189. in else and value of diff between tempimageData and imgdata is67388
+190. in else and value of diff between tempimageData and imgdata is67900
+191. in else and value of diff between tempimageData and imgdata is68412
+192. in else and value of diff between tempimageData and imgdata is68924
+193. in else and value of diff between tempimageData and imgdata is69436
+194. in else and value of diff between tempimageData and imgdata is69948
+195. in else and value of diff between tempimageData and imgdata is70460
+196. in else and value of diff between tempimageData and imgdata is70972
+197. in else and value of diff between tempimageData and imgdata is71484
+198. in else and value of diff between tempimageData and imgdata is71996
+199. in else and value of diff between tempimageData and imgdata is72508
+200. in else and value of diff between tempimageData and imgdata is73020
+201. in else and value of diff between tempimageData and imgdata is73532
+202. in else and value of diff between tempimageData and imgdata is74044
+203. in else and value of diff between tempimageData and imgdata is74556
+204. in else and value of diff between tempimageData and imgdata is75068
+205. in else and value of diff between tempimageData and imgdata is75580
+206. in else and value of diff between tempimageData and imgdata is76092
+207. in else and value of diff between tempimageData and imgdata is76604
+208. in else and value of diff between tempimageData and imgdata is77116
+209. in else and value of diff between tempimageData and imgdata is77628
+210. in else and value of diff between tempimageData and imgdata is78140
+211. in else and value of diff between tempimageData and imgdata is78652
+212. in else and value of diff between tempimageData and imgdata is79164
+213. in else and value of diff between tempimageData and imgdata is79676
+214. in else and value of diff between tempimageData and imgdata is80188
+215. in else and value of diff between tempimageData and imgdata is80300
+216. in else and value of diff between tempimageData and imgdata is80812
+217. in else and value of diff between tempimageData and imgdata is81324
+218. in else and value of diff between tempimageData and imgdata is81836
+219. in else and value of diff between tempimageData and imgdata is82348
+220. in else and value of diff between tempimageData and imgdata is82860
+221. in else and value of diff between tempimageData and imgdata is83372
+222. in else and value of diff between tempimageData and imgdata is83884
+223. in else and value of diff between tempimageData and imgdata is84396
+224. in else and value of diff between tempimageData and imgdata is84908
+225. in else and value of diff between tempimageData and imgdata is85420
+226. in else and value of diff between tempimageData and imgdata is85932
+227. in else and value of diff between tempimageData and imgdata is86444
+228. in else and value of diff between tempimageData and imgdata is86956
+229. in else and value of diff between tempimageData and imgdata is87468
+230. in else and value of diff between tempimageData and imgdata is87980
+231. in else and value of diff between tempimageData and imgdata is88492
+232. in else and value of diff between tempimageData and imgdata is89004
+233. in else and value of diff between tempimageData and imgdata is89516
+234. in else and value of diff between tempimageData and imgdata is90028
+235. in else and value of diff between tempimageData and imgdata is90540
+236. in else and value of diff between tempimageData and imgdata is91052
+237. in else and value of diff between tempimageData and imgdata is91564
+238. in else and value of diff between tempimageData and imgdata is92076
+239. in else and value of diff between tempimageData and imgdata is92588
+240. in else and value of diff between tempimageData and imgdata is93100
+241. in else and value of diff between tempimageData and imgdata is93612
+242. in else and value of diff between tempimageData and imgdata is94124
+243. in else and value of diff between tempimageData and imgdata is94636
+244. in else and value of diff between tempimageData and imgdata is95148
+245. in else and value of diff between tempimageData and imgdata is95660
+246. in else and value of diff between tempimageData and imgdata is96172
+247. in else and value of diff between tempimageData and imgdata is96684
+248. in else and value of diff between tempimageData and imgdata is97196
+249. in else and value of diff between tempimageData and imgdata is97708
+250. in else and value of diff between tempimageData and imgdata is98220
+251. in else and value of diff between tempimageData and imgdata is98732
+252. in else and value of diff between tempimageData and imgdata is99244
+253. in else and value of diff between tempimageData and imgdata is99756
+254. in else and value of diff between tempimageData and imgdata is100268
+255. in else and value of diff between tempimageData and imgdata is100780
+256. in else and value of diff between tempimageData and imgdata is101292
+257. in else and value of diff between tempimageData and imgdata is101804
+258. in else and value of diff between tempimageData and imgdata is102316
+259. in else and value of diff between tempimageData and imgdata is102828
+260. in else and value of diff between tempimageData and imgdata is103340
+261. in else and value of diff between tempimageData and imgdata is103852
+262. in else and value of diff between tempimageData and imgdata is104364
+263. in else and value of diff between tempimageData and imgdata is104876
+264. in else and value of diff between tempimageData and imgdata is105388
+265. in else and value of diff between tempimageData and imgdata is105900
+266. in else and value of diff between tempimageData and imgdata is106412
+267. in else and value of diff between tempimageData and imgdata is106580
+268. in else and value of diff between tempimageData and imgdata is107092
+269. in else and value of diff between tempimageData and imgdata is107604
+270. in else and value of diff between tempimageData and imgdata is108116
+271. in else and value of diff between tempimageData and imgdata is108628
+272. in else and value of diff between tempimageData and imgdata is109140
+273. in else and value of diff between tempimageData and imgdata is109652
+274. in else and value of diff between tempimageData and imgdata is110164
+275. in else and value of diff between tempimageData and imgdata is110676
+276. in else and value of diff between tempimageData and imgdata is111188
+277. in else and value of diff between tempimageData and imgdata is111700
+278. in else and value of diff between tempimageData and imgdata is112212
+279. in else and value of diff between tempimageData and imgdata is112724
+280. in else and value of diff between tempimageData and imgdata is113236
+281. in else and value of diff between tempimageData and imgdata is113748
+282. in else and value of diff between tempimageData and imgdata is114260
+283. in else and value of diff between tempimageData and imgdata is114772
+284. in else and value of diff between tempimageData and imgdata is115284
+285. in else and value of diff between tempimageData and imgdata is115796
+286. in else and value of diff between tempimageData and imgdata is116308
+287. in else and value of diff between tempimageData and imgdata is116820
+288. in else and value of diff between tempimageData and imgdata is117332
+289. in else and value of diff between tempimageData and imgdata is117844
+290. in else and value of diff between tempimageData and imgdata is118356
+291. in else and value of diff between tempimageData and imgdata is118868
+292. in else and value of diff between tempimageData and imgdata is119380
+293. in else and value of diff between tempimageData and imgdata is119892
+294. in else and value of diff between tempimageData and imgdata is120404
+295. in else and value of diff between tempimageData and imgdata is120916
+296. in else and value of diff between tempimageData and imgdata is121428
+297. in else and value of diff between tempimageData and imgdata is121940
+298. in else and value of diff between tempimageData and imgdata is122452
+299. in else and value of diff between tempimageData and imgdata is122964
+300. in else and value of diff between tempimageData and imgdata is123476
+301. in else and value of diff between tempimageData and imgdata is123988
+302. in else and value of diff between tempimageData and imgdata is124100
+303. in else and value of diff between tempimageData and imgdata is124612
+304. in else and value of diff between tempimageData and imgdata is125124
+305. in else and value of diff between tempimageData and imgdata is125636
+306. in else and value of diff between tempimageData and imgdata is126148
+307. in else and value of diff between tempimageData and imgdata is126660
+308. in else and value of diff between tempimageData and imgdata is127172
+309. in else and value of diff between tempimageData and imgdata is127684
+310. in else and value of diff between tempimageData and imgdata is128196
+311. in else and value of diff between tempimageData and imgdata is128708
+312. in else and value of diff between tempimageData and imgdata is129220
+313. in else and value of diff between tempimageData and imgdata is129732
+314. in else and value of diff between tempimageData and imgdata is130244
+315. in else and value of diff between tempimageData and imgdata is130756
+316. in else and value of diff between tempimageData and imgdata is131268
+317. in else and value of diff between tempimageData and imgdata is131780
+318. in else and value of diff between tempimageData and imgdata is132292
+319. in else and value of diff between tempimageData and imgdata is132804
+320. in else and value of diff between tempimageData and imgdata is133316
+321. in else and value of diff between tempimageData and imgdata is133828
+322. in else and value of diff between tempimageData and imgdata is134340
+323. in if remainingData>0 if and it's value is 352
+324. Done receiveing the file of size 137056
+325. Done creating the file scannerImage.pnm
+326. faced problems when write to file
+327. Some error in recv IMage
+328. in receive Ret structure function
+
+329. retStructure size is : 1804
+330. pret->message value: ƒ iŽqŸ#€—í	9ž§”^
+331. 
+
+
+
+332. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
+333. 
+
+
+
+334. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+335. in receive Ret structure function
+
+336. retStructure size is : 1804
+337. pret->message value: 
+338. Received from linux pRet message
+339. 
+
+
+
+340. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
+341. 
+
+
+
+342. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+343. in receive Ret structure function
+
+344. retStructure size is : 1804
+345. pret->message value: 
+346. Received from linux pRet message
+347. 
+
+
+
+348. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET

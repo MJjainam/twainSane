@@ -153,6 +153,7 @@ int sendDevs(scannerDevs* pdevs) {-//Tw wrong one
 	return 0;
 }
 
+
 //int sendDevs(scannerDevs* pdevs) { //The correct one
 //	writeToLog("in sendDevs function");
 //	if (s == NULL) {
@@ -178,6 +179,90 @@ int receiveMsg() {
 	return 0;
 }
 
+int recvImage(char* filePath) {
+	writeToLog("in recvImage function");
+	int status;
+	if (s == NULL) {
+		writeToLog("Socket is not opened, something is wrong");
+		return -1;
+	}
+	char* imgData = (char*)(malloc(MAX_IMAGE_SIZE));
+	int imgSize;
+	status = recv(s, (char*)&imgSize, sizeof(int), 0);
+	if (status != sizeof(int)) {
+		writeToLog("Some error occured in receiving the image file size");
+		return -1;
+	}
+	writeToLog("size of the image is " + std::to_string(imgSize));
+	
+	int offset = 0;
+	char* tempImgData = imgData;
+	memset(imgData, 0, MAX_IMAGE_SIZE);
+	int remainingData = imgSize;
+	while (remainingData >= BUFSIZ) {
+		//writeToLog("Inside while loop");
+		status = recv(s, tempImgData, BUFSIZ, 0);
+		if (status == 0) {
+			writeToLog("The status value is zero. EOF reached");
+			if (offset == imgSize) {
+				writeToLog("successfule reading of file");
+				//return 0;
+			}
+			else {
+				writeToLog("Unsuccesful reading of file");
+				return -1;
+			}
+
+		}
+		else if (status == -1) {
+				writeToLog("Got -1 error while receiveing the image");
+				return -1;
+			}
+		else {
+			tempImgData = tempImgData + status;
+			remainingData -= BUFSIZ;
+			//offset = offset + status;
+			//continue; //explicit continue
+		}
+
+		
+
+	}
+
+	if (remainingData > 0) {
+		writeToLog("in if remainingData>0 if and it's value is " + std::to_string(remainingData));
+		status = recv(s, tempImgData, remainingData, 0);
+		
+	}
+
+	writeToLog("Done receiveing the file of size " + std::to_string(imgSize));
+
+	HANDLE imgHandle = (void*)0;
+	imgHandle = CreateFile(_T("C:\\Users\\Jai\\Desktop\\scannerImage.jpeg"),
+		FILE_APPEND_DATA,
+		FILE_SHARE_WRITE,
+		NULL,
+		CREATE_ALWAYS,
+		FILE_ATTRIBUTE_NORMAL,
+		NULL
+	);
+	//int numBytesWritten;  //Not using this
+	//OVERLAPPED a; //Not using this
+	writeToLog("Done creating the file scannerImage.pnm" );
+	status = WriteFile(imgHandle, imgData, imgSize,NULL, NULL) ;
+	if (status == 0) {
+		writeToLog("Succesfully wriiten data");
+		return 0;
+	}
+	else {
+		writeToLog("faced problems when write to file");
+		return -1;
+	}
+
+
+
+	return 0;
+}
 int receiveRetStruct(retStruct *pRet) {
 	if (s == NULL) {
 		connectTo(IPADDRESS, 2222);
@@ -191,6 +276,8 @@ int receiveRetStruct(retStruct *pRet) {
 	deserializeRetStruct(data, pRet);
 	writeToLog("retStructure size is : " + std::to_string(sizeof(retStruct)));
 	writeToLog("pret->message value: " + std::string(pRet->message));	
+
+	free(data);
 	return 0;
 	//return *pRet;
 }
