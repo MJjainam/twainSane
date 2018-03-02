@@ -17,6 +17,7 @@
 #define BUFSIZE 512
 #include "log.h"
 #include "structures.h"
+#include "tools.h"
 
 
 

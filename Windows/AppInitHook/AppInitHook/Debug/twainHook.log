@@ -87,315 +87,360 @@ WINDOWS: Inside MSG_USERSELECT
 52. (from main.cpp) This is the value of curDevId: 3
 53. in sendDevs function
 54. in recvImage function
-55. size of the image is 137056
-56. in else and value of diff between tempimageData and imgdata is512
-57. in else and value of diff between tempimageData and imgdata is1024
-58. in else and value of diff between tempimageData and imgdata is1536
-59. in else and value of diff between tempimageData and imgdata is2048
-60. in else and value of diff between tempimageData and imgdata is2560
-61. in else and value of diff between tempimageData and imgdata is2920
-62. in else and value of diff between tempimageData and imgdata is3432
-63. in else and value of diff between tempimageData and imgdata is3944
-64. in else and value of diff between tempimageData and imgdata is4456
-65. in else and value of diff between tempimageData and imgdata is4968
-66. in else and value of diff between tempimageData and imgdata is5480
-67. in else and value of diff between tempimageData and imgdata is5992
-68. in else and value of diff between tempimageData and imgdata is6504
-69. in else and value of diff between tempimageData and imgdata is7016
-70. in else and value of diff between tempimageData and imgdata is7528
-71. in else and value of diff between tempimageData and imgdata is8040
-72. in else and value of diff between tempimageData and imgdata is8552
-73. in else and value of diff between tempimageData and imgdata is9064
-74. in else and value of diff between tempimageData and imgdata is9576
-75. in else and value of diff between tempimageData and imgdata is10088
-76. in else and value of diff between tempimageData and imgdata is10600
-77. in else and value of diff between tempimageData and imgdata is11112
-78. in else and value of diff between tempimageData and imgdata is11624
-79. in else and value of diff between tempimageData and imgdata is12136
-80. in else and value of diff between tempimageData and imgdata is12648
-81. in else and value of diff between tempimageData and imgdata is13140
-82. in else and value of diff between tempimageData and imgdata is13652
-83. in else and value of diff between tempimageData and imgdata is14164
-84. in else and value of diff between tempimageData and imgdata is14676
-85. in else and value of diff between tempimageData and imgdata is15188
-86. in else and value of diff between tempimageData and imgdata is15700
-87. in else and value of diff between tempimageData and imgdata is16060
-88. in else and value of diff between tempimageData and imgdata is16572
-89. in else and value of diff between tempimageData and imgdata is17084
-90. in else and value of diff between tempimageData and imgdata is17596
-91. in else and value of diff between tempimageData and imgdata is18108
-92. in else and value of diff between tempimageData and imgdata is18620
-93. in else and value of diff between tempimageData and imgdata is19132
-94. in else and value of diff between tempimageData and imgdata is19644
-95. in else and value of diff between tempimageData and imgdata is20156
-96. in else and value of diff between tempimageData and imgdata is20668
-97. in else and value of diff between tempimageData and imgdata is21180
-98. in else and value of diff between tempimageData and imgdata is21692
-99. in else and value of diff between tempimageData and imgdata is22204
-100. in else and value of diff between tempimageData and imgdata is22716
-101. in else and value of diff between tempimageData and imgdata is23228
-102. in else and value of diff between tempimageData and imgdata is23740
-103. in else and value of diff between tempimageData and imgdata is24252
-104. in else and value of diff between tempimageData and imgdata is24764
-105. in else and value of diff between tempimageData and imgdata is25276
-106. in else and value of diff between tempimageData and imgdata is25788
-107. in else and value of diff between tempimageData and imgdata is26300
-108. in else and value of diff between tempimageData and imgdata is26812
-109. in else and value of diff between tempimageData and imgdata is27324
-110. in else and value of diff between tempimageData and imgdata is27836
-111. in else and value of diff between tempimageData and imgdata is28348
-112. in else and value of diff between tempimageData and imgdata is28860
-113. in else and value of diff between tempimageData and imgdata is29372
-114. in else and value of diff between tempimageData and imgdata is29884
-115. in else and value of diff between tempimageData and imgdata is30396
-116. in else and value of diff between tempimageData and imgdata is30908
-117. in else and value of diff between tempimageData and imgdata is31420
-118. in else and value of diff between tempimageData and imgdata is31932
-119. in else and value of diff between tempimageData and imgdata is32444
-120. in else and value of diff between tempimageData and imgdata is32956
-121. in else and value of diff between tempimageData and imgdata is33468
-122. in else and value of diff between tempimageData and imgdata is33980
-123. in else and value of diff between tempimageData and imgdata is34492
-124. in else and value of diff between tempimageData and imgdata is35004
-125. in else and value of diff between tempimageData and imgdata is35516
-126. in else and value of diff between tempimageData and imgdata is36028
-127. in else and value of diff between tempimageData and imgdata is36540
-128. in else and value of diff between tempimageData and imgdata is37052
-129. in else and value of diff between tempimageData and imgdata is37564
-130. in else and value of diff between tempimageData and imgdata is38076
-131. in else and value of diff between tempimageData and imgdata is38588
-132. in else and value of diff between tempimageData and imgdata is39100
-133. in else and value of diff between tempimageData and imgdata is39612
-134. in else and value of diff between tempimageData and imgdata is40124
-135. in else and value of diff between tempimageData and imgdata is40636
-136. in else and value of diff between tempimageData and imgdata is41148
-137. in else and value of diff between tempimageData and imgdata is41660
-138. in else and value of diff between tempimageData and imgdata is42172
-139. in else and value of diff between tempimageData and imgdata is42340
-140. in else and value of diff between tempimageData and imgdata is42852
-141. in else and value of diff between tempimageData and imgdata is43364
-142. in else and value of diff between tempimageData and imgdata is43876
-143. in else and value of diff between tempimageData and imgdata is44388
-144. in else and value of diff between tempimageData and imgdata is44900
-145. in else and value of diff between tempimageData and imgdata is45260
-146. in else and value of diff between tempimageData and imgdata is45772
-147. in else and value of diff between tempimageData and imgdata is46284
-148. in else and value of diff between tempimageData and imgdata is46796
-149. in else and value of diff between tempimageData and imgdata is47308
-150. in else and value of diff between tempimageData and imgdata is47820
-151. in else and value of diff between tempimageData and imgdata is48332
-152. in else and value of diff between tempimageData and imgdata is48844
-153. in else and value of diff between tempimageData and imgdata is49356
-154. in else and value of diff between tempimageData and imgdata is49868
-155. in else and value of diff between tempimageData and imgdata is50380
-156. in else and value of diff between tempimageData and imgdata is50892
-157. in else and value of diff between tempimageData and imgdata is51404
-158. in else and value of diff between tempimageData and imgdata is51916
-159. in else and value of diff between tempimageData and imgdata is52428
-160. in else and value of diff between tempimageData and imgdata is52940
-161. in else and value of diff between tempimageData and imgdata is53452
-162. in else and value of diff between tempimageData and imgdata is53964
-163. in else and value of diff between tempimageData and imgdata is54476
-164. in else and value of diff between tempimageData and imgdata is54988
-165. in else and value of diff between tempimageData and imgdata is55500
-166. in else and value of diff between tempimageData and imgdata is56012
-167. in else and value of diff between tempimageData and imgdata is56524
-168. in else and value of diff between tempimageData and imgdata is57036
-169. in else and value of diff between tempimageData and imgdata is57548
-170. in else and value of diff between tempimageData and imgdata is58060
-171. in else and value of diff between tempimageData and imgdata is58572
-172. in else and value of diff between tempimageData and imgdata is59084
-173. in else and value of diff between tempimageData and imgdata is59596
-174. in else and value of diff between tempimageData and imgdata is60108
-175. in else and value of diff between tempimageData and imgdata is60620
-176. in else and value of diff between tempimageData and imgdata is61132
-177. in else and value of diff between tempimageData and imgdata is61644
-178. in else and value of diff between tempimageData and imgdata is62156
-179. in else and value of diff between tempimageData and imgdata is62668
-180. in else and value of diff between tempimageData and imgdata is62780
-181. in else and value of diff between tempimageData and imgdata is63292
-182. in else and value of diff between tempimageData and imgdata is63804
-183. in else and value of diff between tempimageData and imgdata is64316
-184. in else and value of diff between tempimageData and imgdata is64828
-185. in else and value of diff between tempimageData and imgdata is65340
-186. in else and value of diff between tempimageData and imgdata is65852
-187. in else and value of diff between tempimageData and imgdata is66364
-188. in else and value of diff between tempimageData and imgdata is66876
-189. in else and value of diff between tempimageData and imgdata is67388
-190. in else and value of diff between tempimageData and imgdata is67900
-191. in else and value of diff between tempimageData and imgdata is68412
-192. in else and value of diff between tempimageData and imgdata is68924
-193. in else and value of diff between tempimageData and imgdata is69436
-194. in else and value of diff between tempimageData and imgdata is69948
-195. in else and value of diff between tempimageData and imgdata is70460
-196. in else and value of diff between tempimageData and imgdata is70972
-197. in else and value of diff between tempimageData and imgdata is71484
-198. in else and value of diff between tempimageData and imgdata is71996
-199. in else and value of diff between tempimageData and imgdata is72508
-200. in else and value of diff between tempimageData and imgdata is73020
-201. in else and value of diff between tempimageData and imgdata is73532
-202. in else and value of diff between tempimageData and imgdata is74044
-203. in else and value of diff between tempimageData and imgdata is74556
-204. in else and value of diff between tempimageData and imgdata is75068
-205. in else and value of diff between tempimageData and imgdata is75580
-206. in else and value of diff between tempimageData and imgdata is76092
-207. in else and value of diff between tempimageData and imgdata is76604
-208. in else and value of diff between tempimageData and imgdata is77116
-209. in else and value of diff between tempimageData and imgdata is77628
-210. in else and value of diff between tempimageData and imgdata is78140
-211. in else and value of diff between tempimageData and imgdata is78652
-212. in else and value of diff between tempimageData and imgdata is79164
-213. in else and value of diff between tempimageData and imgdata is79676
-214. in else and value of diff between tempimageData and imgdata is80188
-215. in else and value of diff between tempimageData and imgdata is80300
-216. in else and value of diff between tempimageData and imgdata is80812
-217. in else and value of diff between tempimageData and imgdata is81324
-218. in else and value of diff between tempimageData and imgdata is81836
-219. in else and value of diff between tempimageData and imgdata is82348
-220. in else and value of diff between tempimageData and imgdata is82860
-221. in else and value of diff between tempimageData and imgdata is83372
-222. in else and value of diff between tempimageData and imgdata is83884
-223. in else and value of diff between tempimageData and imgdata is84396
-224. in else and value of diff between tempimageData and imgdata is84908
-225. in else and value of diff between tempimageData and imgdata is85420
-226. in else and value of diff between tempimageData and imgdata is85932
-227. in else and value of diff between tempimageData and imgdata is86444
-228. in else and value of diff between tempimageData and imgdata is86956
-229. in else and value of diff between tempimageData and imgdata is87468
-230. in else and value of diff between tempimageData and imgdata is87980
-231. in else and value of diff between tempimageData and imgdata is88492
-232. in else and value of diff between tempimageData and imgdata is89004
-233. in else and value of diff between tempimageData and imgdata is89516
-234. in else and value of diff between tempimageData and imgdata is90028
-235. in else and value of diff between tempimageData and imgdata is90540
-236. in else and value of diff between tempimageData and imgdata is91052
-237. in else and value of diff between tempimageData and imgdata is91564
-238. in else and value of diff between tempimageData and imgdata is92076
-239. in else and value of diff between tempimageData and imgdata is92588
-240. in else and value of diff between tempimageData and imgdata is93100
-241. in else and value of diff between tempimageData and imgdata is93612
-242. in else and value of diff between tempimageData and imgdata is94124
-243. in else and value of diff between tempimageData and imgdata is94636
-244. in else and value of diff between tempimageData and imgdata is95148
-245. in else and value of diff between tempimageData and imgdata is95660
-246. in else and value of diff between tempimageData and imgdata is96172
-247. in else and value of diff between tempimageData and imgdata is96684
-248. in else and value of diff between tempimageData and imgdata is97196
-249. in else and value of diff between tempimageData and imgdata is97708
-250. in else and value of diff between tempimageData and imgdata is98220
-251. in else and value of diff between tempimageData and imgdata is98732
-252. in else and value of diff between tempimageData and imgdata is99244
-253. in else and value of diff between tempimageData and imgdata is99756
-254. in else and value of diff between tempimageData and imgdata is100268
-255. in else and value of diff between tempimageData and imgdata is100780
-256. in else and value of diff between tempimageData and imgdata is101292
-257. in else and value of diff between tempimageData and imgdata is101804
-258. in else and value of diff between tempimageData and imgdata is102316
-259. in else and value of diff between tempimageData and imgdata is102828
-260. in else and value of diff between tempimageData and imgdata is103340
-261. in else and value of diff between tempimageData and imgdata is103852
-262. in else and value of diff between tempimageData and imgdata is104364
-263. in else and value of diff between tempimageData and imgdata is104876
-264. in else and value of diff between tempimageData and imgdata is105388
-265. in else and value of diff between tempimageData and imgdata is105900
-266. in else and value of diff between tempimageData and imgdata is106412
-267. in else and value of diff between tempimageData and imgdata is106580
-268. in else and value of diff between tempimageData and imgdata is107092
-269. in else and value of diff between tempimageData and imgdata is107604
-270. in else and value of diff between tempimageData and imgdata is108116
-271. in else and value of diff between tempimageData and imgdata is108628
-272. in else and value of diff between tempimageData and imgdata is109140
-273. in else and value of diff between tempimageData and imgdata is109652
-274. in else and value of diff between tempimageData and imgdata is110164
-275. in else and value of diff between tempimageData and imgdata is110676
-276. in else and value of diff between tempimageData and imgdata is111188
-277. in else and value of diff between tempimageData and imgdata is111700
-278. in else and value of diff between tempimageData and imgdata is112212
-279. in else and value of diff between tempimageData and imgdata is112724
-280. in else and value of diff between tempimageData and imgdata is113236
-281. in else and value of diff between tempimageData and imgdata is113748
-282. in else and value of diff between tempimageData and imgdata is114260
-283. in else and value of diff between tempimageData and imgdata is114772
-284. in else and value of diff between tempimageData and imgdata is115284
-285. in else and value of diff between tempimageData and imgdata is115796
-286. in else and value of diff between tempimageData and imgdata is116308
-287. in else and value of diff between tempimageData and imgdata is116820
-288. in else and value of diff between tempimageData and imgdata is117332
-289. in else and value of diff between tempimageData and imgdata is117844
-290. in else and value of diff between tempimageData and imgdata is118356
-291. in else and value of diff between tempimageData and imgdata is118868
-292. in else and value of diff between tempimageData and imgdata is119380
-293. in else and value of diff between tempimageData and imgdata is119892
-294. in else and value of diff between tempimageData and imgdata is120404
-295. in else and value of diff between tempimageData and imgdata is120916
-296. in else and value of diff between tempimageData and imgdata is121428
-297. in else and value of diff between tempimageData and imgdata is121940
-298. in else and value of diff between tempimageData and imgdata is122452
-299. in else and value of diff between tempimageData and imgdata is122964
-300. in else and value of diff between tempimageData and imgdata is123476
-301. in else and value of diff between tempimageData and imgdata is123988
-302. in else and value of diff between tempimageData and imgdata is124100
-303. in else and value of diff between tempimageData and imgdata is124612
-304. in else and value of diff between tempimageData and imgdata is125124
-305. in else and value of diff between tempimageData and imgdata is125636
-306. in else and value of diff between tempimageData and imgdata is126148
-307. in else and value of diff between tempimageData and imgdata is126660
-308. in else and value of diff between tempimageData and imgdata is127172
-309. in else and value of diff between tempimageData and imgdata is127684
-310. in else and value of diff between tempimageData and imgdata is128196
-311. in else and value of diff between tempimageData and imgdata is128708
-312. in else and value of diff between tempimageData and imgdata is129220
-313. in else and value of diff between tempimageData and imgdata is129732
-314. in else and value of diff between tempimageData and imgdata is130244
-315. in else and value of diff between tempimageData and imgdata is130756
-316. in else and value of diff between tempimageData and imgdata is131268
-317. in else and value of diff between tempimageData and imgdata is131780
-318. in else and value of diff between tempimageData and imgdata is132292
-319. in else and value of diff between tempimageData and imgdata is132804
-320. in else and value of diff between tempimageData and imgdata is133316
-321. in else and value of diff between tempimageData and imgdata is133828
-322. in else and value of diff between tempimageData and imgdata is134340
-323. in if remainingData>0 if and it's value is 352
-324. Done receiveing the file of size 137056
-325. Done creating the file scannerImage.pnm
-326. faced problems when write to file
-327. Some error in recv IMage
-328. in receive Ret structure function
+55. size of the image is 141518
+56. Remaining data is 141006
+57. Remaining data is 140494
+58. Remaining data is 139982
+59. Remaining data is 139470
+60. Remaining data is 138958
+61. Some error, status != BUFSIZE
+62. Remaining data is 138598
+63. Remaining data is 138086
+64. Remaining data is 137574
+65. Remaining data is 137062
+66. Remaining data is 136550
+67. Remaining data is 136038
+68. Remaining data is 135526
+69. Remaining data is 135014
+70. Remaining data is 134502
+71. Remaining data is 133990
+72. Remaining data is 133478
+73. Remaining data is 132966
+74. Remaining data is 132454
+75. Remaining data is 131942
+76. Remaining data is 131430
+77. Remaining data is 130918
+78. Remaining data is 130406
+79. Remaining data is 129894
+80. Remaining data is 129382
+81. Remaining data is 128870
+82. Some error, status != BUFSIZE
+83. Remaining data is 128378
+84. Remaining data is 127866
+85. Remaining data is 127354
+86. Remaining data is 126842
+87. Remaining data is 126330
+88. Remaining data is 125818
+89. Some error, status != BUFSIZE
+90. Remaining data is 125458
+91. Remaining data is 124946
+92. Remaining data is 124434
+93. Remaining data is 123922
+94. Remaining data is 123410
+95. Remaining data is 122898
+96. Remaining data is 122386
+97. Remaining data is 121874
+98. Remaining data is 121362
+99. Remaining data is 120850
+100. Remaining data is 120338
+101. Remaining data is 119826
+102. Some error, status != BUFSIZE
+103. Remaining data is 119618
+104. Remaining data is 119106
+105. Remaining data is 118594
+106. Remaining data is 118082
+107. Remaining data is 117570
+108. Remaining data is 117058
+109. Remaining data is 116546
+110. Remaining data is 116034
+111. Remaining data is 115522
+112. Remaining data is 115010
+113. Remaining data is 114498
+114. Remaining data is 113986
+115. Remaining data is 113474
+116. Remaining data is 112962
+117. Remaining data is 112450
+118. Remaining data is 111938
+119. Remaining data is 111426
+120. Remaining data is 110914
+121. Remaining data is 110402
+122. Remaining data is 109890
+123. Remaining data is 109378
+124. Remaining data is 108866
+125. Remaining data is 108354
+126. Remaining data is 107842
+127. Remaining data is 107330
+128. Remaining data is 106818
+129. Remaining data is 106306
+130. Remaining data is 105794
+131. Remaining data is 105282
+132. Remaining data is 104770
+133. Remaining data is 104258
+134. Remaining data is 103746
+135. Remaining data is 103234
+136. Remaining data is 102722
+137. Remaining data is 102210
+138. Remaining data is 101698
+139. Remaining data is 101186
+140. Remaining data is 100674
+141. Remaining data is 100162
+142. Remaining data is 99650
+143. Some error, status != BUFSIZE
+144. Remaining data is 99178
+145. Remaining data is 98666
+146. Remaining data is 98154
+147. Some error, status != BUFSIZE
+148. Remaining data is 97718
+149. Remaining data is 97206
+150. Remaining data is 96694
+151. Remaining data is 96182
+152. Remaining data is 95670
+153. Remaining data is 95158
+154. Some error, status != BUFSIZE
+155. Remaining data is 94798
+156. Remaining data is 94286
+157. Remaining data is 93774
+158. Remaining data is 93262
+159. Remaining data is 92750
+160. Remaining data is 92238
+161. Remaining data is 91726
+162. Remaining data is 91214
+163. Remaining data is 90702
+164. Remaining data is 90190
+165. Remaining data is 89678
+166. Remaining data is 89166
+167. Remaining data is 88654
+168. Remaining data is 88142
+169. Remaining data is 87630
+170. Remaining data is 87118
+171. Remaining data is 86606
+172. Remaining data is 86094
+173. Remaining data is 85582
+174. Remaining data is 85070
+175. Remaining data is 84558
+176. Remaining data is 84046
+177. Remaining data is 83534
+178. Remaining data is 83022
+179. Remaining data is 82510
+180. Remaining data is 81998
+181. Remaining data is 81486
+182. Remaining data is 80974
+183. Remaining data is 80462
+184. Remaining data is 79950
+185. Remaining data is 79438
+186. Remaining data is 78926
+187. Some error, status != BUFSIZE
+188. Remaining data is 78738
+189. Remaining data is 78226
+190. Remaining data is 77714
+191. Remaining data is 77202
+192. Remaining data is 76690
+193. Remaining data is 76178
+194. Remaining data is 75666
+195. Remaining data is 75154
+196. Remaining data is 74642
+197. Remaining data is 74130
+198. Remaining data is 73618
+199. Remaining data is 73106
+200. Remaining data is 72594
+201. Remaining data is 72082
+202. Remaining data is 71570
+203. Remaining data is 71058
+204. Remaining data is 70546
+205. Remaining data is 70034
+206. Remaining data is 69522
+207. Remaining data is 69010
+208. Some error, status != BUFSIZE
+209. Remaining data is 68518
+210. Remaining data is 68006
+211. Remaining data is 67494
+212. Remaining data is 66982
+213. Remaining data is 66470
+214. Remaining data is 65958
+215. Remaining data is 65446
+216. Remaining data is 64934
+217. Remaining data is 64422
+218. Remaining data is 63910
+219. Remaining data is 63398
+220. Remaining data is 62886
+221. Remaining data is 62374
+222. Remaining data is 61862
+223. Remaining data is 61350
+224. Remaining data is 60838
+225. Remaining data is 60326
+226. Remaining data is 59814
+227. Remaining data is 59302
+228. Remaining data is 58790
+229. Remaining data is 58278
+230. Remaining data is 57766
+231. Remaining data is 57254
+232. Remaining data is 56742
+233. Remaining data is 56230
+234. Remaining data is 55718
+235. Remaining data is 55206
+236. Remaining data is 54694
+237. Remaining data is 54182
+238. Remaining data is 53670
+239. Remaining data is 53158
+240. Remaining data is 52646
+241. Remaining data is 52134
+242. Remaining data is 51622
+243. Remaining data is 51110
+244. Remaining data is 50598
+245. Remaining data is 50086
+246. Remaining data is 49574
+247. Remaining data is 49062
+248. Remaining data is 48550
+249. Remaining data is 48038
+250. Remaining data is 47526
+251. Remaining data is 47014
+252. Remaining data is 46502
+253. Remaining data is 45990
+254. Remaining data is 45478
+255. Remaining data is 44966
+256. Remaining data is 44454
+257. Remaining data is 43942
+258. Remaining data is 43430
+259. Remaining data is 42918
+260. Remaining data is 42406
+261. Some error, status != BUFSIZE
+262. Remaining data is 42238
+263. Remaining data is 41726
+264. Remaining data is 41214
+265. Remaining data is 40702
+266. Remaining data is 40190
+267. Remaining data is 39678
+268. Remaining data is 39166
+269. Remaining data is 38654
+270. Remaining data is 38142
+271. Remaining data is 37630
+272. Remaining data is 37118
+273. Remaining data is 36606
+274. Remaining data is 36094
+275. Remaining data is 35582
+276. Remaining data is 35070
+277. Remaining data is 34558
+278. Remaining data is 34046
+279. Remaining data is 33534
+280. Remaining data is 33022
+281. Remaining data is 32510
+282. Some error, status != BUFSIZE
+283. Remaining data is 32018
+284. Remaining data is 31506
+285. Remaining data is 30994
+286. Remaining data is 30482
+287. Remaining data is 29970
+288. Remaining data is 29458
+289. Remaining data is 28946
+290. Remaining data is 28434
+291. Remaining data is 27922
+292. Remaining data is 27410
+293. Remaining data is 26898
+294. Remaining data is 26386
+295. Remaining data is 25874
+296. Remaining data is 25362
+297. Remaining data is 24850
+298. Remaining data is 24338
+299. Remaining data is 23826
+300. Remaining data is 23314
+301. Remaining data is 22802
+302. Remaining data is 22290
+303. Remaining data is 21778
+304. Remaining data is 21266
+305. Remaining data is 20754
+306. Remaining data is 20242
+307. Remaining data is 19730
+308. Remaining data is 19218
+309. Remaining data is 18706
+310. Remaining data is 18194
+311. Remaining data is 17682
+312. Remaining data is 17170
+313. Remaining data is 16658
+314. Remaining data is 16146
+315. Some error, status != BUFSIZE
+316. Remaining data is 15958
+317. Remaining data is 15446
+318. Remaining data is 14934
+319. Remaining data is 14422
+320. Remaining data is 13910
+321. Remaining data is 13398
+322. Remaining data is 12886
+323. Remaining data is 12374
+324. Remaining data is 11862
+325. Remaining data is 11350
+326. Remaining data is 10838
+327. Remaining data is 10326
+328. Remaining data is 9814
+329. Remaining data is 9302
+330. Remaining data is 8790
+331. Remaining data is 8278
+332. Remaining data is 7766
+333. Remaining data is 7254
+334. Remaining data is 6742
+335. Remaining data is 6230
+336. Remaining data is 5718
+337. Remaining data is 5206
+338. Remaining data is 4694
+339. Remaining data is 4182
+340. Remaining data is 3670
+341. Remaining data is 3158
+342. Remaining data is 2646
+343. Remaining data is 2134
+344. Remaining data is 1622
+345. Remaining data is 1110
+346. Remaining data is 598
+347. Remaining data is 86
+348. in if remainingData>0 if and it's value is 86
+349. Done receiveing the file of size 141518
+350. Done creating the file scannerImage.pnm
+351. write Success
+352. in receive Ret structure function
 
-329. retStructure size is : 1804
-330. pret->message value: ƒ iŽqŸ#€—í	9ž§”^
-331. 
-
-
-
-332. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
-333. 
-
-
-
-334. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
-335. in receive Ret structure function
-
-336. retStructure size is : 1804
-337. pret->message value: 
-338. Received from linux pRet message
-339. 
-
-
-
-340. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
-341. 
-
-
-
-342. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
-343. in receive Ret structure function
-
-344. retStructure size is : 1804
-345. pret->message value: 
-346. Received from linux pRet message
-347. 
+353. retStructure size is : 1804
+354. pret->message value: devs.curDevId is selected
+355. Thsi si the pRet->twc0
+356. 
 
 
 
-348. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
+357. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_CAPABILITY////MSG_SET
+358. 
+
+
+
+359. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_ENABLEDS
+360. 
+
+
+
+361. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_EVENT////MSG_PROCESSEVENT
+362. 
+
+
+
+363. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
+364. 
+
+
+
+365. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_USERINTERFACE////MSG_DISABLEDS
+366. 
+
+
+
+367. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_IDENTITY////MSG_CLOSEDS
+368. 
+
+
+
+369. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+370. in receive Ret structure function
+
+371. retStructure size is : 1804
+372. pret->message value: ‚
+373. Received from linux pRet message‚
+374. 
+
+
+
+375. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_STATUS////MSG_GET
+376. 
+
+
+
+377. WINDOWS: DG, DAT, MSG:  DG_CONTROL////DAT_PARENT////MSG_CLOSEDSM
+378. in receive Ret structure function
+
+379. retStructure size is : 1804
+380. pret->message value: sane-backends closed succesfully
+381. Received from linux pRet messagesane-backends closed succesfully

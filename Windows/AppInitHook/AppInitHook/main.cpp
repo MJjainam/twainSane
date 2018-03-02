@@ -200,10 +200,12 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 				writeToLog("Some error in recv IMage");
 			}
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
+			
 			receiveRetStruct(pRet);
 			buffer = "Received from linux pRet message" + std::string(pRet->message);
 			
-
+			//twcc
+			writeToLog("Thsi si the pRet->twc" + std::to_string(pRet->twrc));
 			return pRet->twrc;
 
 		}
@@ -222,21 +224,35 @@ TW_UINT16 TW_CALLINGSTYLE hooked_DSM_Entry(pTW_IDENTITY pOrigin, pTW_IDENTITY pD
 			return pRet->twrc;
 
 		}
-		else if (DG == DG_CONTROL && DAT == DAT_USERINTERFACE && MSG_ENABLEDS) {
+		else if (DG == DG_CONTROL && DAT == DAT_USERINTERFACE && MSG == MSG_ENABLEDS) {
 
-			sendMsg(buffer);
+			/*sendMsg(buffer);
 			sendfParams(&msgPacket);
 
 			retStruct *pRet = (retStruct *)malloc(sizeof(retStruct));
 			receiveRetStruct(pRet);
 
 			buffer = "Received from linux pRet message" + std::string(pRet->message);
-			writeToLog(buffer);
-			return pRet->twrc;
+			writeToLog(buffer);*/
+			//return pRet->twrc;
+			return 0;
 
 		}
-		
-		return 0;
+		else if (DG == DG_CONTROL && DAT == DAT_STATUS && MSG == MSG_GET) {
+			return 0;
+			//TWRC_SUCCESS
+		}
+		else if (DG = DG_CONTROL && DAT == DAT_EVENT && MSG == MSG_PROCESSEVENT) {
+
+			TW_EVENT* tempPData = (TW_EVENT*)pData;
+			tempPData->TWMessage = MSG_CLOSEDSREQ; //This stops the PROCESSEVENT LOOP
+			return TWRC_NOTDSEVENT; //This says that the returned data is for the application
+
+		}
+		else {
+			return 0;			
+			//TWRC_DSEVENT
+		}
 		//return retVal;
 
 }

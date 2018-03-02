@@ -202,27 +202,25 @@ int recvImage(char* filePath) {
 	while (remainingData >= BUFSIZ) {
 		//writeToLog("Inside while loop");
 		status = recv(s, tempImgData, BUFSIZ, 0);
-		if (status == 0) {
-			writeToLog("The status value is zero. EOF reached");
-			if (offset == imgSize) {
-				writeToLog("successfule reading of file");
-				//return 0;
-			}
-			else {
-				writeToLog("Unsuccesful reading of file");
-				return -1;
-			}
-
-		}
-		else if (status == -1) {
+		
+		if (status == -1) {
 				writeToLog("Got -1 error while receiveing the image");
 				return -1;
 			}
+		else if(status != BUFSIZ) {
+			writeToLog("Some error, status != BUFSIZE");
+			tempImgData = tempImgData + status;
+			remainingData = remainingData - status;
+			writeToLog("Remaining data is " + std::to_string(remainingData));
+
+			//continue;
+			//return -1;
+		}
+
 		else {
 			tempImgData = tempImgData + status;
-			remainingData -= BUFSIZ;
-			//offset = offset + status;
-			//continue; //explicit continue
+			remainingData = remainingData - status;
+			writeToLog("Remaining data is " + std::to_string(remainingData));
 		}
 
 		
@@ -248,22 +246,37 @@ int recvImage(char* filePath) {
 	);
 	//int numBytesWritten;  //Not using this
 	//OVERLAPPED a; //Not using this
-	writeToLog("Done creating the file scannerImage.pnm" );
-	status = WriteFile(imgHandle, imgData, imgSize,NULL, NULL) ;
-	if (status == 0) {
-		writeToLog("Succesfully wriiten data");
-		return 0;
-	}
-	else {
-		writeToLog("faced problems when write to file");
+	if (imgHandle == INVALID_HANDLE_VALUE) {
+		std::wstring errMsg = GetLastErrorAsString();
+		writeToLog("Could not create the file " + std::string(errMsg.begin(), errMsg.end()));
 		return -1;
 	}
+	else {
+
+		writeToLog("Done creating the file scannerImage.pnm" );
+
+		status = WriteFile(imgHandle, imgData, imgSize,NULL, NULL) ;
+		if (status == TRUE) {
+			writeToLog("write Success");
+			return 0;
+		}
+		else 
+			writeToLog("faced problems when write to file");
+			std::wstring errMsg = GetLastErrorAsString();
+			writeToLog("This is the wsagetlasterror() " + std::string(errMsg.begin(), errMsg.end()));
+			return -1;
+		}
+		
+	
+
+
 
 
 
 	return 0;
 }
 int receiveRetStruct(retStruct *pRet) {
+	memset(pRet, 0, sizeof(retStruct));
 	if (s == NULL) {
 		connectTo(IPADDRESS, 2222);
 	}
