@@ -1,0 +1,1000 @@
+ 1057  cd ..
+ 1058  cd Git/
+ 1059  ls
+ 1060  cd sane-backends/
+ 1061  make pdf
+ 1062  exit
+ 1063  man screen
+ 1064  clear
+ 1065  cd ../backend/.libs
+ 1066  nm -g libsane-leo.so|grep '\( T \)\|\( D \)'|egrep ' sane_' | egrep -v 'sane_.*init|sane_.*exit|sane_.*get_devices|sane_.*open|sane_.*close|sane_.*get_option_descriptor|sane_.*control_option|sane_.*get_parameters|sane_.*start|sane_.*read|sane_.*cancel|sane_.*set_io_mode|sane_.*get_select_fd|sane_strstatus'
+ 1067  script
+ 1068  gedit typescript 
+ 1069  rm -rf typescript 
+ 1070  nm -g libsane-leo.so|grep '\( T \)\|\( D \)'|egrep ' sane_' | egrep -v 'sane_.*init|sane_.*exit|sane_.*get_devices|sane_.*open|sane_.*close|sane_.*get_option_descriptor|sane_.*control_option|sane_.*get_parameters|sane_.*start|sane_.*read|sane_.*cancel|sane_.*set_io_mode|sane_.*get_select_fd|sane_strstatus'
+ 1071  test
+ 1072  man test
+ 1073  test -n "hi"
+ 1074  test -n ""
+ 1075  ls
+ 1076  test
+ 1077  man
+ 1078  man test
+ 1079  vim a.sh
+ 1080  sudo apt-get install vim
+ 1081  vim a.sh
+ 1082  mv ../../frontend/a.sh .
+ 1083  vim a.sh
+ 1084  nano a.sh
+ 1085  vim a.sh 
+ 1086  man egrep
+ 1087  man gcc
+ 1088  man cc
+ 1089  man 7 undocumented
+ 1090  man awk
+ 1091  cd ~/Desktop/cprogs/
+ 1092  ls
+ 1093  make
+ 1094  ls
+ 1095  rm -rf Makefile.in Makefile
+ 1096  automake --add-missing 
+ 1097  ./configure
+ 1098  make
+ 1099  rm -rf Makefile.in Makefile
+ 1100  automake --add-missing 
+ 1101  ./configure
+ 1102  make
+ 1103  rm -rf Makefile.in Makefile
+ 1104  automake --add-missing 
+ 1105  ./configure
+ 1106  make
+ 1107  rm -rf Makefile.in Makefile
+ 1108  ./configure
+ 1109  make
+ 1110  rm -rf Makefile.in Makefile
+ 1111  automake --add-missing 
+ 1112  ./configure
+ 1113  make
+ 1114  rm -rf Makefile.in Makefile
+ 1115  automake --add-missing 
+ 1116  ./configure
+ 1117  make
+ 1118  ./a.sh
+ 1119  autoconf
+ 1120  automake --add-missing 
+ 1121  ./configure
+ 1122  autoconf
+ 1123  automake --add-missing 
+ 1124  ./configure
+ 1125  ./a.sh
+ 1126  autoconf
+ 1127  automake --add-missing 
+ 1128  ./configure
+ 1129  make
+ 1130  ./a.sh
+ 1131  ls
+ 1132  cd frontend/
+ 1133  ls
+ 1134  ls -la
+ 1135  cd ..
+ 1136  cd frontend/
+ 1137  make
+ 1138  cd ..
+ 1139  make install
+ 1140  ./a.sh
+ 1141  autoconf
+ 1142  automake --add-missing 
+ 1143  autoconf
+ 1144  automake --add-missing 
+ 1145  autoconf
+ 1146  automake --add-missing 
+ 1147  ./configure
+ 1148  make
+ 1149  autoconf
+ 1150  automake --add-missing 
+ 1151  ./configure
+ 1152  make
+ 1153  ./a.sh
+ 1154  exit
+ 1155  cd Desktop/Git/sane-backends/
+ 1156  ls
+ 1157  cd frontend/
+ 1158  screen
+ 1159  exit
+ 1160  touch hello.html
+ 1161  cd Desktop/
+ 1162  touch writeup
+ 1163  cd ..
+ 1164  ls
+ 1165  cd Desktop
+ 1166  mkdir sockProg
+ 1167  cd sockProg/
+ 1168  vim client.c
+ 1169  ls
+ 1170  vim client.c
+ 1171  gcc client.c 
+ 1172  vim client.c
+ 1173  gcc -o client client.c
+ 1174  vim client.c
+ 1175  gcc -o client client.c
+ 1176  vim client.c
+ 1177  ./client myhostname 20001
+ 1178  ./client localhost 20001
+ 1179  gcc -o client client.c
+ 1180  ./client localhost 20001
+ 1181  gcc -o client client.c
+ 1182  ./client localhost 20001
+ 1183  gcc -o client client.c
+ 1184  ./client localhost 20001
+ 1185  gcc -o client client.c
+ 1186  ./client localhost 20001
+ 1187  gcc -o client client.c
+ 1188  ./client localhost 20001
+ 1189  gcc -o client client.c
+ 1190  ./client localhost 20001
+ 1191  gcc -o client client.c
+ 1192  ./client localhost 20001
+ 1193  man gethostbyname
+ 1194  vim client.c
+ 1195  exit
+ 1196  cd ../Desktop/sockProg/
+ 1197  ls
+ 1198  vim server.c
+ 1199  ls
+ 1200  vim server.c
+ 1201  gcc server server.c 
+ 1202  gcc server.c 
+ 1203  vim server.c
+ 1204  gcc server.c 
+ 1205  vim server.c
+ 1206  gcc server.c 
+ 1207  vim server.c
+ 1208  gcc server.c 
+ 1209  vim server.c
+ 1210  gcc server.c server
+ 1211  gcc -c server.c server
+ 1212  gcc -o server server.c
+ 1213  vim server.c
+ 1214  gcc -o server server.c
+ 1215  vim server.c
+ 1216  gcc -o server server.c
+ 1217  gcc -o client client.c
+ 1218  ./server 20001
+ 1219  vim server.c
+ 1220  gcc -o server server.c
+ 1221  ./server 20001
+ 1222  hi
+ 1223  ./server 20001
+ 1224  vim server.c
+ 1225  exit
+ 1226  sudo dpkg -i DynamsoftServiceSetup.deb 
+ 1227  scanimage -L
+ 1228  man socket
+ 1229  man connect
+ 1230  screen
+ 1231  screen --list
+ 1232  screen -list
+ 1233  screen -r
+ 1234  ls
+ 1235  sudo nano /etc/ssh/sshd_config 
+ 1236  sudo nano /etc/ssh/ssh_config 
+ 1237  sudo service ssh restart
+ 1238  ssh radix@10.252.249.110
+ 1239  ssh radix@10.252.249.119
+ 1240  ip a
+ 1241  ssh radix@10.252.249.119
+ 1242  sudo nano /etc/ssh/ssh_config 
+ 1243  ssh radix@10.252.249.119
+ 1244  exit
+ 1245  git clone git@github.com:MJjainam/sockProg.git
+ 1246  ssh
+ 1247  ls -al ~/.ssh
+ 1248  ssh-keygen -t rsa -b 4096 -C "github.com"
+ 1249  eval "$(ssh-agent -s)"
+ 1250  ssh-add ~/.ssh/id_rsa
+ 1251  ~/.ssh/id_rsa.pub
+ 1252  sudo ~/.ssh/id_rsa.pub
+ 1253  sudo cat ~/.ssh/id_rsa.pub
+ 1254  sudo gedit ~/.ssh/id_rsa.pub
+ 1255  ls
+ 1256  git clone git@github.com:MJjainam/sockProg.git
+ 1257  git add .
+ 1258  cd sockProg/
+ 1259  git add .
+ 1260  git commit -m "My first commmit"
+ 1261  git push
+ 1262  whereis drivers
+ 1263  cd ~
+ 1264  ls
+ 1265  ls -la
+ 1266  clear
+ 1267  ls
+ 1268  cd /
+ 1269  ls
+ 1270  cd dev/
+ 1271  ls
+ 1272  cd bus
+ 1273  ls
+ 1274  cd usb
+ 1275  ls
+ 1276  cd 001
+ 1277  ls
+ 1278  ls -la
+ 1279  cd /
+ 1280  find ./* -name bus.c
+ 1281  sduo find ./* -name bus.c
+ 1282  sudo find ./* -name bus.c
+ 1283  cd /sys/
+ 1284  ls
+ 1285  cd bus
+ 1286  ls
+ 1287  cd usb/
+ 1288  ls
+ 1289  cd drivers/
+ 1290  ls
+ 1291  cd usb
+ 1292  ls
+ 1293  cd ..
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd devices/
+ 1298  ls
+ 1299  cd ..
+ 1300  ls
+ 1301  cd drivers/usb/
+ 1302  ls
+ 1303  ls -la
+ 1304  lsusb
+ 1305  sudo apt-get install lsinput
+ 1306  sudo apt-get install input-utils 
+ 1307  lsinput
+ 1308  sudo lsinput
+ 1309  sudo lsinput | grep canon
+ 1310  lsusb
+ 1311  man ioctl
+ 1312  exit
+ 1313  man getaddrinfo
+ 1314  man inet_addr
+ 1315  man htons
+ 1316  man memset
+ 1317  man send
+ 1318  man sockaddr_in
+ 1319  gcc -o server server.c
+ 1320  ./server 2222
+ 1321  gcc -o server server.c
+ 1322  man inet_aton
+ 1323  gcc -o server server.c
+ 1324  ./server 2222
+ 1325  man inet_aton
+ 1326  ./server 2222
+ 1327  gcc -o server server.c
+ 1328  man inet_aton
+ 1329  man in_addr
+ 1330  man inet_aton
+ 1331  gcc -o server server.c
+ 1332  ./server 2222
+ 1333  gcc -o server server.c
+ 1334  ./server 2222
+ 1335  man strcmp
+ 1336  ./server 2222
+ 1337  man strncmp
+ 1338  clear
+ 1339  gcc -o server.c
+ 1340  gcc -o server server.c
+ 1341  ./server 2222
+ 1342  man shutdown
+ 1343  man 7 shutdown
+ 1344  ./server 2222
+ 1345  gcc -o server server.c
+ 1346  ./server 2222
+ 1347  ip a
+ 1348  gcc -o server server.c
+ 1349  ./server 2222
+ 1350  gcc -o server server.c
+ 1351  ./server 2222
+ 1352  gcc -o server server.c
+ 1353  ./server 2222
+ 1354  gcc -o server server.c
+ 1355  ./server 2222
+ 1356  gcc -o server server.c
+ 1357  ./server 2222
+ 1358  vim client.c
+ 1359  ./server 2222
+ 1360  exit
+ 1361  ls
+ 1362  cim client.c
+ 1363  vim client.c
+ 1364  ls
+ 1365  ./server 2222
+ 1366  vim server.c
+ 1367  gcc -o server.c server
+ 1368  gcc -c server.c server
+ 1369  gcc  server.c server
+ 1370  gcc server.c
+ 1371  ls
+ 1372  #include <sys/socket.h>
+ 1373  #include <sys/types.h>
+ 1374  #include <netinet/in.h>
+ 1375  int main(int argc,char *argv[]){
+ 1376  vim new.c
+ 1377  gcc server.c
+ 1378  ls
+ 1379  mv new.c server.c
+ 1380  gcc server.c
+ 1381  ls
+ 1382  cp server.c new.c
+ 1383  ls
+ 1384  gcc -c server.c server
+ 1385  ls
+ 1386  rm -rf server.o server
+ 1387  gcc -c server.c server
+ 1388  ls
+ 1389  vim server.c 
+ 1390  ls
+ 1391  gcc -o server.c server
+ 1392  gcc -o server server.c 
+ 1393  ls
+ 1394  ./server 2222
+ 1395  vim server.c
+ 1396  ./server 2222
+ 1397  gcc -o server server.c 
+ 1398  ./server 2222
+ 1399  vim server.c
+ 1400  gcc -o server server.c 
+ 1401  ./server 2222
+ 1402  vim server.c
+ 1403  ./server 2222
+ 1404  vim server.c
+ 1405  ./server 2222
+ 1406  vim server.c
+ 1407  gcc -o server server.c 
+ 1408  ./server 2222
+ 1409  vim server.c
+ 1410  gcc -o server server.c 
+ 1411  vim server.c
+ 1412  gcc -o server server.c 
+ 1413  ./server 2222
+ 1414  vim server.c
+ 1415  man strcmp
+ 1416  vim server.c
+ 1417  exit
+ 1418  ./server 2222
+ 1419  clear
+ 1420  ls
+ 1421  ./server 2222
+ 1422  git init
+ 1423  git log
+ 1424  git add .
+ 1425  git commit -m "First commit"
+ 1426  git log
+ 1427  ls
+ 1428  clear
+ 1429  ls
+ 1430  vim sever.c
+ 1431  vim server.c
+ 1432  clear
+ 1433  ls
+ 1434  vim server.c
+ 1435  ls
+ 1436  clear
+ 1437  vim server.c
+ 1438  ip a
+ 1439  vim server.c
+ 1440  exit
+ 1441  history
+ 1442  ssh radix@10.252.249.119
+ 1443  man iptables
+ 1444  ps -aux
+ 1445  top
+ 1446  ls
+ 1447  cd Desktop/
+ 1448  ls
+ 1449  cd sockProg/
+ 1450  ls
+ 1451  gcc -o client client.c
+ 1452  ./client 20001
+ 1453  ./client radix 20001
+ 1454  ./client 10.252.249.119 20001
+ 1455  man getnameinfo
+ 1456  gcc -o client client.c
+ 1457  ./client 20001
+ 1458  ./client radix 20001
+ 1459  gcc -o client client.c
+ 1460  ./client radix 20001
+ 1461  gcc -o client client.c
+ 1462  ./client radix 20001
+ 1463  gcc -o client client.c
+ 1464  ./client radix 20001
+ 1465  gcc -o client client.c
+ 1466  ./client radix 20001
+ 1467  gcc -o client client.c
+ 1468  ./client radix 20001
+ 1469  man htons
+ 1470  gcc -o client client.c
+ 1471  man htons
+ 1472  ./client radix 20001
+ 1473  man hostent
+ 1474  ./client radix 22
+ 1475  ./client radix 20001
+ 1476  ./client radix 2334
+ 1477  ssh JMW3H@010.150.154.142
+ 1478  ssh JMW3H@10.150.154.142
+ 1479  ls
+ 1480  ip a
+ 1481  ./server 2222
+ 1482  screen
+ 1483  exit
+ 1484  lsusb -vv | top
+ 1485  lsusb -vv
+ 1486  sudo lsusb -vv
+ 1487  udevadm info -a -p $(udevadm info -q path -n /dev/sdX)
+ 1488  sudo lsusb -vv
+ 1489  sudo lsusb 
+ 1490  man lsusb
+ 1491  ls
+ 1492  cd Desktop/
+ 1493  vim checkForScanner.c
+ 1494  ./runFile.sh 
+ 1495  vim checkForScanner.c
+ 1496  exit
+ 1497  cd Desktop/
+ 1498  ls
+ 1499  ./readDevices
+ 1500  ./readDevices.sh
+ 1501  sudo chmod 777 readDevices.sh 
+ 1502  ./readDevices.sh 
+ 1503  lshw
+ 1504  lsusb /dev/bus/usb/004/003
+ 1505  lsusb -D /dev/bus/usb/004/003
+ 1506  lsusb -D /dev/bus/usb/004/003 | grep scanner
+ 1507  lsusb -v
+ 1508  lsusb -v | grep scanner
+ 1509  lsusb -v
+ 1510  lsusb
+ 1511  cd /dev/input/
+ 1512  ls
+ 1513  cd by-path/
+ 1514  ;s
+ 1515  ls
+ 1516  ls -la
+ 1517  cd ..
+ 1518  ls
+ 1519  ls -la
+ 1520  lsusb -vv
+ 1521  sudo lsusb -vv
+ 1522  lsusb -vv | top
+ 1523  sudo lsusb -vv | top
+ 1524  sudo lsusb -vv 
+ 1525  sudo lsusb -vv | top
+ 1526  cd ~/Desktop/
+ 1527  ls
+ 1528  vim runFile.sh 
+ 1529  sudo ./runFile.sh 
+ 1530  vim checkForScanner
+ 1531  vim checkForScanner.c
+ 1532  sudo ./runFile.sh 
+ 1533  exit
+ 1534  lsusb
+ 1535  lsusb -vv
+ 1536  exit
+ 1537  lsusb
+ 1538  sudo ./runFile.sh 
+ 1539  cd Desktop/
+ 1540  vim runFile.sh 
+ 1541  sudo ./runFile.sh 
+ 1542  vim runFile.sh 
+ 1543  gcc checkForScanner.c -lusb-1.0
+ 1544  ./a.out 
+ 1545  gcc checkForScanner.c -lusb-1.0
+ 1546  ./a.out 
+ 1547  gcc checkForScanner.c -lusb-1.0
+ 1548  ./a.out 
+ 1549  gcc checkForScanner.c -lusb-1.0
+ 1550  ./a.out 
+ 1551  gcc checkForScanner.c -lusb-1.0
+ 1552  ./a.out 
+ 1553  sudo ./a.out 
+ 1554  ./a.out 
+ 1555  sudo ./a.out 
+ 1556  gcc checkForScanner.c -lusb-1.0
+ 1557  sudo ./a.out 
+ 1558  gcc checkForScanner.c -lusb-1.0
+ 1559  sudo ./a.out 
+ 1560  ./a.out 
+ 1561  sudo ./a.out 
+ 1562  ./a.out 
+ 1563  gcc checkForScanner.c -lusb-1.0
+ 1564  ./a.out 
+ 1565  sudo ./a.out 
+ 1566  gcc checkForScanner.c -lusb-1.0
+ 1567  sudo ./a.out 
+ 1568  ./a.out 
+ 1569  sudo ./a.out 
+ 1570  gcc checkForScanner.c -lusb-1.0
+ 1571  sudo ./a.out 
+ 1572  gcc checkForScanner.c -lusb-1.0
+ 1573  sudo ./a.out 
+ 1574  ./a.out 
+ 1575  gcc checkForScanner.c -lusb-1.0
+ 1576  ./a.a
+ 1577  ./a.out 
+ 1578  gcc checkForScanner.c -lusb-1.0
+ 1579  ./a.out 
+ 1580  sudo ./a.out 
+ 1581  ./a.out 
+ 1582  gcc checkForScanner.c -lusb-1.0
+ 1583  ./a.out 
+ 1584  gcc checkForScanner.c -lusb-1.0
+ 1585  ./a.out 
+ 1586  sudo ./a.out 
+ 1587  ./a.out 
+ 1588  gcc checkForScanner.c -lusb-1.0
+ 1589  ./a.out 
+ 1590  exit
+ 1591  ls
+ 1592  cd Desktop/
+ 1593  touch readDevices.sh
+ 1594  vim readDevices.sh 
+ 1595  ls
+ 1596  gcc -o checkForScanner checkForScanner.c 
+ 1597  ./checkForScanner 
+ 1598  gcc -o checkForScanner checkForScanner.c 
+ 1599  gcc -o checkForScanner checkForScanner.c -lusb-1.0
+ 1600  ./checkForScanner 
+ 1601  vim runFile.sh
+ 1602  ./runFile.sh 
+ 1603  sudo ./runFile.sh 
+ 1604  ./checkForScanner 
+ 1605  sudo ./checkForScanner 
+ 1606  sudo ./runFile.sh 
+ 1607  sudo ./checkForScanner 
+ 1608  lsusb -vv
+ 1609  ls
+ 1610  sudo ./checkForScanner 
+ 1611  ./checkForScanner 
+ 1612  sudo ./runFile.sh 
+ 1613  gcc -c checkForScanner checkForScanner.c
+ 1614  gcc -c checkForScanner checkForScanner.c -lusb-1.0
+ 1615  ./checkForScanner 
+ 1616  gcc -c checkForScanner checkForScanner.c -lusb-1.0
+ 1617  ./checkForScanner 
+ 1618  gcc -c checkForScanner checkForScanner.c -lusb-1.0
+ 1619  gcc -c checkForScanner checkForScanner.c 
+ 1620  gcc -L/usr/local/lib -c checkForScanner checkForScanner.c -lusb-1.0
+ 1621  gcc checkForScanner.c
+ 1622  gcc checkForScanner.c -lusb-1.0
+ 1623  ./checkForScanner 
+ 1624  ./a.out 
+ 1625  ./checkForScanner 
+ 1626  gcc checkForScanner.c -lusb-1.0
+ 1627  ./a.out 
+ 1628  man libusb_get_string_descriptor_ascii
+ 1629  gcc checkForScanner.c -lusb-1.0
+ 1630  ./a.out 
+ 1631  gcc checkForScanner.c -lusb-1.0
+ 1632  ./a.out 
+ 1633  gcc checkForScanner.c -lusb-1.0
+ 1634  ./a.out 
+ 1635  gcc checkForScanner.c -lusb-1.0
+ 1636  ./a.out 
+ 1637  gcc checkForScanner.c -lusb-1.0
+ 1638  ./a.out 
+ 1639  lsusb
+ 1640  lsusb -vv | grep scan
+ 1641  lsusb -vv
+ 1642  lsusb -vv | grep ".*scan$"
+ 1643  sduo lsusb -vv | grep ".*scan$"
+ 1644  suso lsusb -vv | grep ".*scan$"
+ 1645  sudo lsusb -vv | grep ".*scan$"
+ 1646  ./a.out 
+ 1647  sudo lsusb -vv | grep ".*Scan$"
+ 1648  gcc checkForScanner.c -lusb-1.0
+ 1649  ./a.out 
+ 1650  lsusb
+ 1651  lsusb -vv
+ 1652  ls
+ 1653  sudo ./runFile.sh 
+ 1654  gcc checkForScanner.c -lusb-1.0
+ 1655  ./a.out 
+ 1656  sudo gcc checkForScanner.c -lusb-1.0
+ 1657  sudo ./a.out 
+ 1658  lsusb -vv | grep "Scan"
+ 1659  sudo lsusb -vv | grep "Scan"
+ 1660  lsusb -vv
+ 1661  ./a.out t
+ 1662  exit
+ 1663  screen
+ 1664  exit
+ 1665  lsusb -vv
+ 1666  sudo lsusb -vv
+ 1667  clear
+ 1668  sudo lsusb -vv
+ 1669  exit
+ 1670  ls
+ 1671  wfica
+ 1672  where is wfica
+ 1673  whereis wfica
+ 1674  cd /
+ 1675  ls
+ 1676  cd opt/
+ 1677  dir
+ 1678  cd Citrix/ICAClient/
+ 1679  ls
+ 1680  ln -s wfica ~/Desktop/wfica
+ 1681  ./wfica ~/Downloads/.*ica
+ 1682  ./wfica ~/Downloads/*ica
+ 1683  man inet_addr
+ 1684  gcc server.c
+ 1685  gcc -o server server.c
+ 1686  ./server 2222
+ 1687  ls
+ 1688  git pull
+ 1689  ls
+ 1690  git pull
+ 1691  npam -p 2222 10.150.154.141
+ 1692  nmap -p 2222 10.150.154.141
+ 1693  nmap -p 2222 10.150.154.142
+ 1694  man connect
+ 1695  man inet_aton()
+ 1696  man inet_aton
+ 1697  man htons
+ 1698  ./server 2222
+ 1699  man getsockname
+ 1700  man connect
+ 1701  wfica *.ica
+ 1702  whereis wfica
+ 1703  wfica
+ 1704  cd /var/opt/
+ 1705  ls
+ 1706  cd ..
+ 1707  ls
+ 1708  cd /var/opt/
+ 1709  ls
+ 1710  cd /opt/
+ 1711  ls
+ 1712  cd Citrix/ICAClient/
+ 1713  ls
+ 1714  wfica ~/Downloads/*.ica
+ 1715  ./wfica ~/Downloads/*.ica
+ 1716  cd ~/Desktop/Git/
+ 1717  ls
+ 1718  ls
+ 1719  gcc checkForScanner.c 
+ 1720  gcc checkForScanner.c  -lusb-1.0
+ 1721  gcc checkForScanner.c  clientForScanner.c -lusb-1.0
+ 1722  ./a.out 
+ 1723  gcc checkForScanner.c -lusb-1.0
+ 1724  gcc checkForScanner.c clientForScanner.c -lusb-1.0
+ 1725  ./a.out 
+ 1726  gcc client.c
+ 1727  ./a.out 
+ 1728  ./a.out 2222
+ 1729  gcc client.c
+ 1730  ./a.out 2222
+ 1731  ping 10.150.154.142
+ 1732  git pull
+ 1733  gcc client.c
+ 1734  ./a.out 2222
+ 1735  man inet_addr
+ 1736  gcc client.c
+ 1737  ./a.out 2222
+ 1738  sudo ./a.out 2222
+ 1739  gcc client.c
+ 1740  ./a.out 
+ 1741  gcc client.c
+ 1742  ./a.out 
+ 1743  gcc client.c
+ 1744  ./a.out 
+ 1745  sudo ./a.out 
+ 1746  sudo ./a.out 2222
+ 1747  gcc client.c
+ 1748  sudo ./a.out 2222
+ 1749  gcc client.c
+ 1750  sudo ./a.out
+ 1751  gcc client.c
+ 1752  sudo ./a.out
+ 1753  netstat tlnp
+ 1754  netstat tlnp | grep 2222
+ 1755  iptables -list
+ 1756  sudo iptables -list
+ 1757  sudo iptables --list
+ 1758  sudo iptables -I INPUT -p tcp --dport 2222 -j ACCEPT
+ 1759  sudo ./a.out
+ 1760  nmap -p 80 example.com
+ 1761  sudo apt-get install nmap
+ 1762  nmap -p 80 example.com
+ 1763  nmap -p 2222 10.150.154.142
+ 1764  gcc client.c
+ 1765  ./a.out 
+ 1766  gcc client.c
+ 1767  ./a.out 
+ 1768  gcc client.c
+ 1769  ./a.out 
+ 1770  gcc client.c
+ 1771  ./a.out 
+ 1772  gcc client.c
+ 1773  ./a.out 
+ 1774  man connect
+ 1775  gcc client.c
+ 1776  ./a.out 
+ 1777  gcc client
+ 1778  gcc client.c
+ 1779  ./a.out 
+ 1780  ip a
+ 1781  gcc client.c
+ 1782  ./a.out 
+ 1783  gcc client.c
+ 1784  ./a.out 
+ 1785  gcc client.c
+ 1786  ./a.out 
+ 1787  gcc client.c
+ 1788  ./a.out 
+ 1789  gcc client.c
+ 1790  ./a.out 
+ 1791  history | grep nmap
+ 1792  nmap -p 2222 10.150.154.142
+ 1793  nmap -p 2222 10.150.154.141
+ 1794  nmap -p 2222 10.150.154.142
+ 1795  gcc client.c
+ 1796  ./a.out 
+ 1797  gcc client.c
+ 1798  ./a.out 
+ 1799  gcc client.c
+ 1800  ./a.out 
+ 1801  gcc client.c
+ 1802  ./a.out 
+ 1803  sudo ./a.out 
+ 1804  gcc client.c 
+ 1805  ./a.out 
+ 1806  gcc client.c 
+ 1807  ./a.out 
+ 1808  gcc client.c 
+ 1809  ./a.out 
+ 1810  ls
+ 1811  gcc client.c
+ 1812  ./a.out 
+ 1813  gcc client.c
+ 1814  ./a.out 
+ 1815  nmap -p 2222 10.150.154.142
+ 1816  ./a.out 
+ 1817  gcc client.c
+ 1818  ./a.out 
+ 1819  gcc client.c
+ 1820  ./a.out 
+ 1821  gcc checkForScanner.c clientForScanner.c 
+ 1822  gcc checkForScanner.c clientForScanner.c -lusb-1.0
+ 1823  ls
+ 1824  rm -rf a.out 
+ 1825  gcc checkForScanner.c clientForScanner.c -lusb-1.0
+ 1826  ls
+ 1827  gcc checkForScanner.c clientForScanner.c -o output -lusb-1.0
+ 1828  rm -rf a.out
+ 1829  gcc checkForScanner.c clientForScanner.c -o output -lusb-1.0
+ 1830  ls
+ 1831  ./output
+ 1832  man twain
+ 1833  cd Desktop/
+ 1834  touch links.txt
+ 1835  lscpu
+ 1836  echo $LD_LIBRARY_PATH
+ 1837  LD_LIBRARY_PATH
+ 1838  $LD_LIBRARY_PATH
+ 1839  man write
+ 1840  man 7 write
+ 1841  man write
+ 1842  wfica
+ 1843  cd /usr/bin/X11/
+ 1844  cd ..
+ 1845  ls
+ 1846  cd ..
+ 1847  cdc..
+ 1848  cd ..
+ 1849  ls
+ 1850  cd opt/Citrix/ICAClient/
+ 1851  ls -la
+ 1852  ln -s /opt/Citrix/ICAClient/wfica /usr/local/bin/wfica
+ 1853  sudo ln -s /opt/Citrix/ICAClient/wfica /usr/local/bin/wfica
+ 1854  wfica
+ 1855  wfica ~/Downloads/*.ica
+ 1856  ./mkdsm.sh
+ 1857  sudo ./mkdsm.sh
+ 1858  sudo mkdsm.sh
+ 1859  sudo ./mkdsm.sh
+ 1860  sudo ./mkdsm
+ 1861  ls -la
+ 1862  ls
+ 1863  ./ExactScan64 
+ 1864  chmod 777 ExactScan*
+ 1865  ./ExactScan64 
+ 1866  ./ExactScan
+ 1867  ls
+ 1868  ./ExactScan
+ 1869  ls
+ 1870  ls -la
+ 1871  ./ExactScan
+ 1872  ./ExactScan64
+ 1873  ./ExactScan
+ 1874  ls -la
+ 1875  cd Libs/
+ 1876  ls
+ 1877  exit
+ 1878  UNAME
+ 1879  echo $UNAME
+ 1880  ps
+ 1881  lscpu
+ 1882  exit
+ 1883  qmake
+ 1884  make
+ 1885  exit
+ 1886  qmake
+ 1887  make
+ 1888  sudo make
+ 1889  exit
+ 1890  sudo apt-get install qt4-qmake
+ 1891  qmake
+ 1892  ./Makefile
+ 1893  sudo ./Makefile
+ 1894  ls -la
+ 1895  make
+ 1896  make -f Makefile
+ 1897  sudo make
+ 1898  cd src
+ 1899  ls
+ 1900  qmake
+ 1901  exit
+ 1902  sudo dpkg -i twaindsm_2.3.1-1_amd64.deb 
+ 1903  twain
+ 1904  twanidsm
+ 1905  twaindsm
+ 1906  sudo dpkg -i twaindsm_2.3.1-1_amd64.deb 
+ 1907  ls
+ 1908  exit
+ 1909  pwd
+ 1910  sudo find ./* -name twain
+ 1911  sudo find ./* -name twaindsm
+ 1912  cd home/
+ 1913  ls
+ 1914  cd radix/
+ 1915  ls
+ 1916  cd Downloads/
+ 1917  cd twain-dsm-master/
+ 1918  ls
+ 1919  sudo ./mkdsm.sh
+ 1920  vim mkdsm.sh
+ 1921  ls
+ 1922  sudo ./mkdsm_build.sh
+ 1923  chmod 777 mkdsm_build.sh
+ 1924  sudo ./mkdsm_build.sh
+ 1925  vi mkdsm_build.sh
+ 1926  sudo ./mkdsm_build.sh
+ 1927  vi mkdsm_build.sh
+ 1928  sudo ./mkdsm_build.sh
+ 1929  vi mkdsm_build.sh
+ 1930  sudo ./mkdsm_build.sh
+ 1931  vi mkdsm_build.sh
+ 1932  sudo ./mkdsm_build.sh
+ 1933  vi mkdsm_build.sh
+ 1934  sudo ./mkdsm_build.sh
+ 1935  vi mkdsm_build.sh
+ 1936  sudo ./mkdsm_build.sh
+ 1937  vi mkdsm_build.sh
+ 1938  sudo ./mkdsm_build.sh
+ 1939  vi mkdsm_build.sh
+ 1940  vi mkdsm.sh
+ 1941  exit
+ 1942  sudo dpkg -i twaindsm_2.4.0-1_amd64.deb 
+ 1943  cat * | grep DSM_Entry
+ 1944  cd Desktop/
+ 1945  touch twainCheck.c
+ 1946  code twainCheck.c 
+ 1947  gcc twainCheck.c 
+ 1948  cp twainCheck.c twainCheck.cpp
+ 1949  g++ twainCheck.cpp
+ 1950  ls
+ 1951  ./a.out 
+ 1952  man twain
+ 1953  g++ twainCheck.cpp
+ 1954  man twain
+ 1955  g++ twainCheck.cpp
+ 1956  exit
+ 1957  scanimage -L
+ 1958  ip a
+ 1959  sudo su
+ 1960  ls
+ 1961  cd /usr/local
+ 1962  ls
+ 1963  cd lib/
+ 1964  ls
+ 1965  ls -la
+ 1966  chmod 777 libtwain*
+ 1967  sudo chmod 777 libtwain*
+ 1968  man DSM_Entry
+ 1969  ls
+ 1970  ls -la
+ 1971  g++ --version
+ 1972  man DSM_Entry
+ 1973  exit
+ 1974  ls
+ 1975  cd lib/
+ 1976  ls
+ 1977  ls | grep twain
+ 1978  cd twain
+ 1979  ls
+ 1980  ls -la
+ 1981  cd ..
+ 1982  cd local
+ 1983  cd lib/
+ 1984  ls
+ 1985  mkdir twain
+ 1986  sudo mkdir twain
+ 1987  lscpu
+ 1988  ls
+ 1989  mv wiatwain.ds /usr/local/lib/twain/wiatwain.ds
+ 1990  sudo mv wiatwain.ds /usr/local/lib/twain/wiatwain.ds
+ 1991  mkdir saneHook
+ 1992  exit
+ 1993  saneInitHook.c
+ 1994  touch saneInitHook.c
+ 1995  cd ../linuxHook/
+ 1996  gcc hookSSL.c
+ 1997  gcc hookSSL.c -D_GNU_SOURCE
+ 1998  gcc hookSSL.c -o hookSSL.o -D_GNU_SOURCE
+ 1999  gcc saneInitHook.c -o saneInitHook.so -fPIC -shared -lssl -D_GNU_SOURCE
+ 2000  cd ../saneHook/
+ 2001  gcc saneInitHook.c -o saneInitHook.so -fPIC -shared -lssl -D_GNU_SOURCE
+ 2002  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -lssl -D_GNU_SOURCE
+ 2003  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -D_GNU_SOURCE
+ 2004  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsane -D_GNU_SOURCE
+ 2005  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsa -D_GNU_SOURCE
+ 2006  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsa -L/usr/local/lib/sane/ -D_GNU_SOURCE
+ 2007  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsa -L/usr/local/lib/sane -D_GNU_SOURCE
+ 2008  echo $LD_LIBRARY_PATH
+ 2009  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/sane
+ 2010  echo $LD_LIBRARY_PATH
+ 2011  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsa -L/usr/local/lib/sane -D_GNU_SOURCE
+ 2012  echo $LD_LIBRARY_PATH
+ 2013  export LD_LIBRARY_PATH=/usr/local/lib/sane
+ 2014  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -lsa -L/usr/local/lib/sane -D_GNU_SOURCE
+ 2015  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -D_GNU_SOURCE
+ 2016  ls
+ 2017  export LD_PRELOAD="/home/radix/Desktop/Git/saneHook/saneInitHook.so"
+ 2018  xsane
+ 2019  ls
+ 2020  export LD_PRELOAD="/home/radix/Desktop/Git/saneHook/saneInitHook.so"
+ 2021  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -D_GNU_SOURCE
+ 2022  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl
+ 2023  export LD_PRELOAD="/home/radix/Desktop/Git/saneHook/saneInitHook.so"
+ 2024  ls
+ 2025  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl
+ 2026  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -D_GNU_SOURCE
+ 2027  #$LD_PRELOAd
+ 2028  #$LD_PRELOAD
+ 2029  exho #$LD_PRELOAD
+ 2030  echo #$LD_PRELOAD
+ 2031  $LD_PRELOAd
+ 2032  exho $LD_PRELOAd
+ 2033  echo $LD_PRELOAd
+ 2034  echo $LD_PRELOAD
+ 2035  ls
+ 2036  touch mysane.c
+ 2037  gcc mysane.c
+ 2038  echo $LD_PRELOAD
+ 2039  g++ saneInitHook.c -o saneInitHook.so -fPIC -shared -ldl -D_GNU_SOURCE
+ 2040  gcc mysane.c
+ 2041  gcc mysane.c -L/usr/local/lib/
+ 2042  gcc mysane.c -L/usr/local/lib/sane
+ 2043  gcc mysane.c -L/usr/local/lib/san
+ 2044  gcc -l/usr/local/li mysane.c
+ 2045  gcc -l/usr/local/lib mysane.c
+ 2046  gcc -L/usr/local/lib mysane.c
+ 2047  gcc -L/usr/local/lib/sane mysane.c
+ 2048  gcc -L/usr/local/lib/sane/libsane-abaton.so mysane.c
+ 2049  gcc -I/usr/local/include mysane.c
+ 2050  xsane
+ 2051  echo $PR_RELOAD
+ 2052  echo $LD_RELOAD
+ 2053  echo $LD_PRELOAD
+ 2054  xsane
+ 2055  history
+ 2056  history > history.txt
