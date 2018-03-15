@@ -21,5 +21,6 @@ int main(){
     // bunch.dummy_filename = "dummy.in";
 
     SANE_Status status = sane_init(&version_code, (void *)auth_callback);
+    sane_exit();
     return 0;
 }

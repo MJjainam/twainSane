@@ -9,6 +9,8 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <stdlib.h>
+
 // #include <sane/sanei_auth.h>
 #define BUFSIZE 512
 
@@ -58,6 +60,16 @@ int writeToLog(char *buf)
     fclose(log);
 }
 
+SANE_Status sane_open (SANE_String_Const name, SANE_Handle * h){
+    writeToLog("Sane open is called\n");
+
+    SANE_Status (*old_sane_open)(SANE_String_Const name, SANE_Handle * h);
+    old_sane_open = dlsym(RTLD_NEXT, "sane_open");
+    writeToLog("This is after getting the old_sane_open\n");
+    return old_sane_open(name, h);
+}
+
+
 SANE_Status sane_read(SANE_Handle h, SANE_Byte *buf, SANE_Int maxlen, SANE_Int *len)
 {
 
@@ -80,35 +92,61 @@ SANE_Status sane_read(SANE_Handle h, SANE_Byte *buf, SANE_Int maxlen, SANE_Int *
     int writeFd = open(imageDataFifo, O_WRONLY);
 
     //1. write the SANE_STATUS
-    writeToLog("Status value is %d\n", status);
+    //writeToLog("Status value is " +  itoa(status));
     if (write(writeFd, &status, INTSIZE) != INTSIZE)
     {
         writeToLog("Error in writing SANE_Status to writeFd in saneHook.c");
         return SANE_STATUS_CANCELLED;
     }
-    else{
-        writeToLog("wrote status\n");
-    }
+    
     //2. write the length of the buffer
     if (write(writeFd, len, INTSIZE) != INTSIZE)
     {
         writeToLog("Error in writing lenght to writeFd in saneHook.c");
         return SANE_STATUS_CANCELLED;
     }
-    else{
-        writeToLog("wrote length\n");
-        
-    }
+    
     //3. write the buf
     if (write(writeFd, buf, *len) != *len)
     {
         writeToLog("Error in writing buf to writeFd in saneHook.c");
         return SANE_STATUS_CANCELLED;
     }
-    else{
-        writeToLog("wrote buffer \n");
-        
-    }
 
     return status;
 }
+
+SANE_Status sane_get_parameters (SANE_Handle h, SANE_Parameters * p){
+    umask(0000);
+    writeToLog("Sane get parameters is called\n");
+
+    SANE_Status (*old_sane_get_parameters) (SANE_Handle h, SANE_Parameters * p);
+
+
+
+    old_sane_get_parameters = dlsym(RTLD_NEXT, "sane_get_parameters");
+    writeToLog("This is after getting the handle of old_sane_parameters\n");
+
+    int status = old_sane_get_parameters(h, p);
+
+    FILE* saneParams = fopen("/tmp/saneParams", "w+");
+    fwrite(p, 1, sizeof(*p), saneParams);
+    fclose(saneParams);
+
+    char* buf = (char *)malloc(200);
+    snprintf(buf, 200, "This is the bytes per line %d", p->bytes_per_line);
+    writeToLog(buf);
+    memset(buf, 0, 200);
+
+    snprintf(buf, 200, "This is the pixels per line %d", p->pixels_per_line);
+    writeToLog(buf);
+    memset(buf, 0, 200);
+    
+    free(buf);
+    //fclose(saneParams);
+    umask(0022);
+    return status;
+}
+
+
+// 

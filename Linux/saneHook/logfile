@@ -1,936 +1,2228 @@
+Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196sane_read is called
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196sane_read is called
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
 sane_read is called
-wrote status
-wrote length
-wrote buffer 
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 1196This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane open is called
+This is after getting the old_sane_open
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 636This is the pixels per line 636Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+sane_read is called
+Sane get parameters is called
+This is after getting the handle of old_sane_parameters
+This is the bytes per line 3588This is the pixels per line 1196
