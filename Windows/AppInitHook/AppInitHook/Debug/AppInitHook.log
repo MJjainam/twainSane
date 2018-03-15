@@ -1,35 +1,24 @@
 ﻿  stdafx.cpp
   winCreate.cpp
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(290): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(238): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(291): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(239): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(140): warning C4101: 'x': unreferenced local variable
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(430): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(431): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(462): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(463): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(515): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(516): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(265): note: see declaration of 'strncat'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(816): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: see declaration of 'strncpy'
-c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(569): warning C4101: 'szUseAppid': unreferenced local variable
+c:\users\jai\downloads\appinithook\appinithook\wincreate.cpp(88): warning C4101: 'x': unreferenced local variable
   winClient.cpp
-c:\users\jai\downloads\appinithook\appinithook\winclient.cpp(98): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+c:\users\jai\downloads\appinithook\appinithook\winclient.cpp(99): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1830): note: see declaration of 'inet_addr'
-c:\users\jai\downloads\appinithook\appinithook\winclient.cpp(136): warning C4552: '-': operator has no effect; expected operator with side-effect
+c:\users\jai\downloads\appinithook\appinithook\winclient.cpp(137): warning C4552: '-': operator has no effect; expected operator with side-effect
+c:\users\jai\downloads\appinithook\appinithook\winclient.cpp(335): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
   tools.cpp
-c:\users\jai\downloads\appinithook\appinithook\tools.cpp(20): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\jai\downloads\appinithook\appinithook\tools.cpp(21): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(926): note: see declaration of 'mbstowcs'
   log.cpp
   Generating Code...
   main.cpp
+c:\users\jai\downloads\appinithook\appinithook\main.cpp(198): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
   misc.c
   disasm_x86.c
 c:\users\jai\downloads\appinithook\appinithook\mhook\disasm-lib\disasm_x86.c(3740): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'

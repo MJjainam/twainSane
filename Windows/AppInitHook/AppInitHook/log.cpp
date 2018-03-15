@@ -1,5 +1,5 @@
 #include "log.h"
-
+#include "stdafx.h"
 
 
 //static HANDLE hLog = (void *)0;
@@ -57,11 +57,3 @@ int closeLogFile() {
 	}
 	return 0;
 }
-
-
-
-
-
-
-
-

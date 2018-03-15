@@ -33,5 +33,8 @@ int closeSocket();
 int sendDevs(scannerDevs* pdevs);
 void serializeScannerDevs(scannerDevs *pdevs, char *data);
 int recvImage(char* filePath);
+int recvImageData();
+int recv_r(SOCKET sock, char* buf, int totalBytes, int flags);
+int recvSaneParams(SANE_Parameters *p);
 
 #endif

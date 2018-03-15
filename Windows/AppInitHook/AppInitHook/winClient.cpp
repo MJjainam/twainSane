@@ -16,6 +16,7 @@ WSADATA wsa;
 struct sockaddr_in server;
 
 
+
 void serializeScannerDevs(scannerDevs* pdevs, char *data) {
 
 	TW_UINT16* pdevsX = (TW_UINT16*)pdevs;
@@ -153,6 +154,40 @@ int sendDevs(scannerDevs* pdevs) {-//Tw wrong one
 	return 0;
 }
 
+int recvSaneParams(SANE_Parameters *p) {
+
+	TW_UINT32* paramDataX = (TW_UINT32 *)malloc(sizeof(SANE_Parameters));
+
+	recv(s, (char *)paramDataX, sizeof(SANE_Parameters), 0);
+	//TW_UINT32 *paramData = (TW_UINT32*)paramDataX;
+	TW_UINT32 temp;
+
+	TW_UINT32 *temp_p = (TW_UINT32*)p;
+
+	for (int i = 0; i < sizeof(SANE_Parameters) / 4; i++) {
+		memset(&temp, 0, sizeof(temp));
+		temp = ntohl(*paramDataX);
+
+		memcpy(temp_p, &temp, 4);
+		temp_p++;
+		paramDataX++;
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+	return 0;
+}
+
 
 //int sendDevs(scannerDevs* pdevs) { //The correct one
 //	writeToLog("in sendDevs function");
@@ -208,10 +243,10 @@ int recvImage(char* filePath) {
 				return -1;
 			}
 		else if(status != BUFSIZ) {
-			writeToLog("Some error, status != BUFSIZE");
+			//writeToLog("Some error, status != BUFSIZE");
 			tempImgData = tempImgData + status;
 			remainingData = remainingData - status;
-			writeToLog("Remaining data is " + std::to_string(remainingData));
+			//writeToLog("Remaining data is " + std::to_string(remainingData));
 
 			//continue;
 			//return -1;
@@ -220,7 +255,7 @@ int recvImage(char* filePath) {
 		else {
 			tempImgData = tempImgData + status;
 			remainingData = remainingData - status;
-			writeToLog("Remaining data is " + std::to_string(remainingData));
+			//writeToLog("Remaining data is " + std::to_string(remainingData));
 		}
 
 		
@@ -295,8 +330,50 @@ int receiveRetStruct(retStruct *pRet) {
 	//return *pRet;
 }
 
+int recvImageData() {
+	char* imageDataStrip = (char*)malloc(100000);
+	FILE* tempFile = fopen("C:\\Users\\Jai\\Desktop\\twainStuff\\tempImageFile.lok", "wb+");
 
 
+	int imageDataStripLen;
+	while (1) {
+
+		if (recv(s, (char*)&imageDataStripLen, INTSIZE, 0) != INTSIZE) {
+			writeToLog("Error in receiving imageDataStripLen");
+			return -1;
+		}
+		if (imageDataStripLen == 0) {
+			return 0;
+		}
+		if (recv_r(s, imageDataStrip, imageDataStripLen, 0) != imageDataStripLen) {
+			return -1;
+			writeToLog("Error in receiving imageDataStrip");
+
+		}
+		if (fwrite(imageDataStrip, 1, imageDataStripLen, tempFile) != imageDataStripLen) {
+			writeToLog("Error in writing imageDataStrip ");
+
+			return -1;
+		}
+	}
+	return 0;
+}
+
+int recv_r(SOCKET sock, char* buf, int totalBytes, int flags) {
+
+	//int status;
+	int bytesReceived = 0;
+	int received;
+	while (bytesReceived != totalBytes) {
+		received = recv(s, buf + bytesReceived, totalBytes - bytesReceived, flags);
+		if (received == -1) {
+			return -1;
+		}
+		bytesReceived += received;
+	}
+	return totalBytes;
+
+}
 
 int closeSocket() {
 

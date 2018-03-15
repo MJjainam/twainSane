@@ -9,15 +9,21 @@
 #include "tools.h"
 #include <direct.h>
 
+extern HWND twackerHandle; //handle of the application which is also declared in main
+extern struct _pod pod;  //Pod stores the information related to the application
+extern scannerDevs devs; 
+
+ 
 
 #define LOADLIBRARY(lib,hook,DSID) InstallTwain32DllHooks(lib,hook,DSID)
 
 int getWinDataSource(char *szProductName, DS_INFO* pwinDataSource);
-int ud_createWindow(HINSTANCE g_hinstance, HWND g_hwnd, struct _pod pod1, retStruct ret1);
+int ud_createWindow(HINSTANCE g_hinstance, retStruct ret1);
 BOOL CALLBACK EnumChildProc(HWND hwnd, LPARAM lParam);
 BOOL SelectDlgProc(HWND hWnd, UINT Message, WPARAM wParam, LPARAM /*lParam - unused*/);
 int scanDSDir(char *szProductName, char *_szAbsPath, DS_INFO* pwinDataSource);
 TW_UINT16 LoadDS(char *szProductName,char *_pPath, /* This is the path to data source*/ DS_INFO* pwinDataSource,bool         _boolKeepOpen);
+void SaveBitmapToFile(BYTE* pBitmapBits, LONG lWidth, LONG lHeight, WORD wBitsPerPixel, LPCTSTR lpszFileName);
 
 
 typedef struct

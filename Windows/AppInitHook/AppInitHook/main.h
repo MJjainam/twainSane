@@ -8,6 +8,7 @@
 #include <string>
 #include <iostream>
 #include <cstring>
+#include <typeinfo>
 //#include <cstdio>
 #include "stdafx.h"
 
