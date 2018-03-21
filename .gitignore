@@ -1,1 +1,13 @@
+Linux/sane-backends/*.a
+Linux/sane-backends/*.la
+Linux/sane-backends/*.lo
+Linux/sane-backends/*.o
+Linux/sane-backends/.deps/
+Linux/sane-backends/.libs/
+Linux/sane-backends/Makefile
+Linux/sane-backends/autom4te.cache/
+Linux/sane-backends/config.cache
+Linux/sane-backends/config.log
+Linux/sane-backends/config.status
+Linux/sane-backends/libtool
 Windows/AppInitHook/.vs/*

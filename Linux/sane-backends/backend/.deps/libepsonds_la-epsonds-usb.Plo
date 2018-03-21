@@ -1,0 +1,8 @@
+libepsonds_la-epsonds-usb.lo: epsonds-usb.c /usr/include/stdc-predef.h \
+ epsonds-usb.h ../include/sane/sane.h
+
+/usr/include/stdc-predef.h:
+
+epsonds-usb.h:
+
+../include/sane/sane.h:

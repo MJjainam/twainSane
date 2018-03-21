@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "png.h": "c",
+        "jpeglib.h": "c",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "initializer_list": "cpp",
+        "system_error": "cpp",
+        "istream": "cpp"
+    }
+}
